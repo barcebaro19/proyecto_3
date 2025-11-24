@@ -1,0 +1,11 @@
+<ul class="list-unstyled components">
+    <li routerLinkActive="active" *ngFor="let menu of menulist">
+        <a [routerLink]="menu.url"><i [class]="menu.icono"> </i> {{menu.nombre}}</a>
+    </li>
+    <li>
+        <a href="#" (click)="salir()">Salir</a>
+    </li>
+    <li>
+        <a href="#" (click)="cerrarventana()">Cerrar</a>
+    </li>
+</ul>

@@ -1,0 +1,32 @@
+<div id="header">
+    <div id="sup">
+        <img src="assets/imagen/logos_ccs.png" />
+    </div>
+    <div id="botones"></div>
+</div>
+<div class="wrapper">
+    <!-- Sidebar  -->
+    <nav id="sidebar">
+        <div class="sidebar-header">
+            <h4>Administrador</h4>
+        </div>
+        <app-menu></app-menu>
+    </nav>
+    <!-- Page Content  -->
+    <app-loader></app-loader>
+    <div id="content">
+        <app-breadcrumbs></app-breadcrumbs>
+        <div class="content">
+            <router-outlet></router-outlet>
+        </div>
+        <!-- Footer -->
+        <footer class="sticky-footer bg-white">
+            <div class="container my-auto">
+                <div class="copyright text-center my-auto">
+                    <span>Copyright &copy; Your Website 2019</span>
+                </div>
+            </div>
+        </footer>
+        <!-- End of Footer -->
+    </div>
+</div>

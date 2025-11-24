@@ -1,0 +1,43 @@
+<aside class="left-sidebar">
+    <!-- Sidebar scroll-->
+    <div class="scroll-sidebar">
+        <!-- Sidebar navigation-->
+        <nav class="sidebar-nav">
+            <ul id="sidebarnav">
+                <li class="user-profile">
+                    <a class="has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false">
+                        <img src="assets/images/users/profile.png" alt="user" />
+                        <span class="hide-menu">Mis datos </span>
+                    </a>
+                    <ul aria-expanded="false" class="collapse">
+                        <li class="pl-2">
+                            <div>{{ user.name }}</div>
+                            <div>{{ user.mail }}</div>
+                            <div>{{ user.usuario }}</div>
+                            <div>{{ user.company }}</div>
+                            <div>{{ user.department }}</div>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-devider"></li>
+                <li class="nav-small-cap">PERSONAL</li>
+                <li [hidden]="!rutas.length" *ngFor="let menu of rutas">
+                    <a *ngIf="menu.titulo" class="has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false">
+                        <i [class]="menu.icono"></i>
+                        <span class="hide-menu"> {{ menu.titulo }}
+                            <span class="label label-rouded label-themecolor pull-right"> {{ menu.submenu.length }} </span>
+                        </span>
+                    </a>
+                    <ul aria-expanded="false" class="collapse" *ngIf="menu.submenu">
+                        <li *ngFor="let submenu of menu.submenu">
+                            <a routerLinkActive="active" [routerLink]="[ submenu.url ]"><i class="fa fa-caret-right"> </i> {{ submenu.name }} </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-devider"></li>
+            </ul>
+        </nav>
+        <!-- End Sidebar navigation -->
+    </div>
+        <!-- End Sidebar scroll-->
+</aside>

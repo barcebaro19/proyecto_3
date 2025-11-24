@@ -1,0 +1,20 @@
+<div class="wrapper fadeIn" id="wrapper">
+    <app-loader></app-loader>
+  <div id="formContent">
+      <div class="fadeIn first">
+          <img src="./assets/imagen/logo_grande.png" id="icon" alt="User Icon" />
+          <h1>Administrador RUC</h1>
+      </div>
+      <form [formGroup]="miFormulario" (submit)="ingresar()" novalidate="">
+          <div>
+              <input formControlName="username" type="text" class="fadeIn second" placeholder="Usuario CCS" />
+              <i class="fa fa-user fa-fw">&nbsp;</i>
+          </div>
+          <div>
+              <input formControlName="password" type="password" class="fadeIn third" placeholder="Contraseña" #xi />
+              <i class="fa fa-eye fa-fw" (click)="ver(xi,$event.target)"></i>
+          </div>
+          <input type="submit" [disabled]="miFormulario.invalid" class="fadeIn fourth" value="Ingresar" />
+      </form>
+  </div>
+</div>

@@ -1,0 +1,264 @@
+/*
+* Admin Dashboard Styles
+* Estilos personalizados para el panel de administración
+*/
+
+/* Estilos generales */
+body {
+    font-family: 'Nunito', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f8f9fc;
+    color: #5a5c69;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    min-height: 100vh;
+    transition: all 0.3s;
+}
+
+.sidebar .nav-item .nav-link {
+    padding: 0.75rem 1rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.sidebar .nav-item .nav-link i {
+    margin-right: 0.5rem;
+    width: 20px;
+    text-align: center;
+}
+
+.sidebar .nav-item.active .nav-link {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Topbar */
+.topbar {
+    height: 4.375rem;
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15);
+}
+
+.topbar .nav-item .nav-link {
+    height: 4.375rem;
+    display: flex;
+    align-items: center;
+    padding: 0 0.75rem;
+    position: relative;
+}
+
+.topbar .nav-item .nav-link .badge-counter {
+    position: absolute;
+    transform: scale(0.7);
+    transform-origin: top right;
+    right: 0.25rem;
+    margin-top: -0.25rem;
+}
+
+/* Cards */
+.card {
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.1);
+    margin-bottom: 1.5rem;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-header {
+    background-color: #fff;
+    border-bottom: 1px solid #e3e6f0;
+    padding: 1rem 1.25rem;
+    font-weight: 600;
+    color: #4e73df;
+}
+
+.card-body {
+    padding: 1.25rem;
+}
+
+/* Stats Cards */
+.card-stats .card-body {
+    padding: 1.5rem;
+}
+
+.card-stats .icon-big {
+    font-size: 2rem;
+    line-height: 1;
+    margin-bottom: 1rem;
+}
+
+.card-stats .numbers {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.card-stats .card-category {
+    color: #858796;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+/* Charts */
+.chart-area, .chart-pie {
+    position: relative;
+    height: 20rem;
+    width: 100%;
+}
+
+/* Tables */
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #5a5c69;
+}
+
+.table thead th {
+    border-top: none;
+    border-bottom: 2px solid #e3e6f0;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    letter-spacing: 0.1em;
+    padding: 0.75rem 1rem;
+}
+
+.table td {
+    padding: 0.75rem 1rem;
+    vertical-align: middle;
+    border-top: 1px solid #e3e6f0;
+}
+
+/* Buttons */
+.btn {
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 0.35rem;
+    font-size: 0.85rem;
+    line-height: 1.5;
+}
+
+.btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+}
+
+/* Badges */
+.badge {
+    font-weight: 500;
+    padding: 0.35em 0.65em;
+    font-size: 75%;
+}
+
+/* Alerts */
+.alert {
+    border: none;
+    border-left: 4px solid transparent;
+    border-radius: 0.35rem;
+    padding: 1rem 1.25rem;
+}
+
+.alert-dismissible .close {
+    padding: 1rem 1.25rem;
+}
+
+/* Custom colors */
+.bg-gradient-primary {
+    background: linear-gradient(135deg, #4e73df 0%, #224abe 100%);
+}
+
+.text-primary {
+    color: #4e73df !important;
+}
+
+.bg-primary {
+    background-color: #4e73df !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .sidebar {
+        margin-left: -250px;
+    }
+    
+    .sidebar.toggled {
+        margin-left: 0;
+    }
+    
+    .topbar {
+        width: 100%;
+    }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Toast notifications */
+#toastContainer {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1100;
+    min-width: 300px;
+}
+
+.toast {
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.2);
+    border: none;
+    margin-bottom: 1rem;
+}
+
+/* Custom utilities */
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Status indicators */
+.status-indicator {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+
+.status-online {
+    background-color: #1cc88a;
+}
+
+.status-offline {
+    background-color: #e74a3b;
+}
+
+.status-pending {
+    background-color: #f6c23e;
+}

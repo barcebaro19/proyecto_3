@@ -1,0 +1,171 @@
+/* Estilos para el dashboard */
+
+/* Tarjetas de estadísticas */
+.card-stat {
+    border-left: 3px solid #4e73df;
+    transition: all 0.2s ease;
+    margin-bottom: 0;
+    height: 100%;
+}
+
+.card-stat:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.05) !important;
+}
+
+.card-stat .card-body {
+    padding: 1rem;
+}
+
+.card-stat .icon {
+    font-size: 1.5rem;
+    color: #4e73df;
+}
+
+/* Colores para las tarjetas */
+.card-stat.primary {
+    border-left-color: #4e73df;
+}
+
+.card-stat.primary .icon {
+    color: #4e73df;
+}
+
+.card-stat.success {
+    border-left-color: #1cc88a;
+}
+
+.card-stat.success .icon {
+    color: #1cc88a;
+}
+
+.card-stat.warning {
+    border-left-color: #f6c23e;
+}
+
+.card-stat.warning .icon {
+    color: #f6c23e;
+}
+
+.card-stat.danger {
+    border-left-color: #e74a3b;
+}
+
+/* Estilos para el texto en tarjetas */
+.card-stat h6 {
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-bottom: 0.25rem;
+}
+
+.card-stat h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+}
+
+.card-stat .small {
+    font-size: 0.75rem;
+}
+
+/* Ajustes para los iconos */
+.bg-opacity-10 {
+    opacity: 0.1;
+}
+
+/* Ajustes de espaciado */
+.g-4 {
+    gap: 1rem !important;
+}
+
+/* Ajustes para el contenido */
+.chart-area {
+    min-height: 250px;
+}
+
+/* Ajustes para los encabezados de tarjetas */
+.card-header {
+    padding: 0.75rem 1rem;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(0,0,0,.05);
+}
+
+.card-header h6 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.card-stat.danger .icon {
+    color: #e74a3b;
+}
+
+/* Gráficos */
+.chart-area {
+    position: relative;
+    height: 20rem;
+    width: 100%;
+}
+
+/* Tablas */
+.table-responsive {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: #f8f9fc;
+    padding: 1rem 0;
+    min-height: calc(100vh - 56px);
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15);
+}
+
+.sidebar .nav-link {
+    color: #4e73df;
+    padding: 0.75rem 1.5rem;
+    margin: 0.25rem 1rem;
+    border-radius: 0.35rem;
+    transition: all 0.3s ease;
+}
+
+.sidebar .nav-link:hover {
+    background-color: #eaecf4;
+    color: #224abe;
+}
+
+.sidebar .nav-link.active {
+    background-color: #4e73df;
+    color: white;
+}
+
+.sidebar .nav-link i {
+    margin-right: 0.5rem;
+}
+
+/* Contenido principal */
+.main-content {
+    padding: 2rem;
+}
+
+/* Alertas de stock bajo */
+.alert-stock {
+    border-left: 4px solid #f6c23e;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border-radius: 0.35rem;
+    background-color: #fff3cd;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .sidebar {
+        min-height: auto;
+        margin-bottom: 1rem;
+    }
+    
+    .main-content {
+        padding: 1rem;
+    }
+}

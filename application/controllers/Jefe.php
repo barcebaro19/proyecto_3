@@ -6,7 +6,7 @@ class Jefe extends CI_Controller {
     public function __construct()
     {
         parent::__construct();
-        $this->load->model(['Producto_model', 'Categoria_model']);
+        $this->load->model(['Producto_model', 'Categoria_model', 'Movimiento_model']);
         $this->load->library(['session', 'form_validation']);
         $this->load->helper(['url', 'form']);
         
@@ -24,16 +24,55 @@ class Jefe extends CI_Controller {
     }
 
     public function index() {
-        $data = [
-            'title' => 'Panel del Jefe',
-            'total_productos' => $this->Producto_model->contar_productos(),
-            'productos_bajo_stock' => $this->Producto_model->obtener_productos_bajo_stock(),
-            'ultimos_movimientos' => $this->Producto_model->obtener_ultimos_movimientos(5)
-        ];
-        
-        $this->load->view('jefe/header', $data);
-        $this->load->view('jefe/dashboard', $data);
-        $this->load->view('jefe/footer');
+        try {
+            log_message('error', 'Jefe Controller: Index iniciado');
+            
+            // Verificar si el modelo está cargado
+            if (!isset($this->Producto_model)) {
+                throw new Exception("Producto_model no está cargado");
+            }
+
+            $data = [
+                'title' => 'Panel del Jefe',
+                'total_productos' => 0,
+                'productos_bajo_stock' => [],
+                'ultimos_movimientos' => []
+            ];
+
+            // Intentar cargar datos uno por uno para identificar cuál falla
+            try {
+                $data['total_productos'] = $this->Producto_model->contar_productos();
+            } catch (Exception $e) {
+                log_message('error', 'Error contando productos: ' . $e->getMessage());
+            }
+
+            try {
+                $data['productos_bajo_stock'] = $this->Producto_model->obtener_productos_bajo_stock();
+            } catch (Exception $e) {
+                log_message('error', 'Error obteniendo stock bajo: ' . $e->getMessage());
+            }
+
+            try {
+                $data['ultimos_movimientos'] = $this->Movimiento_model->get_ultimos_movimientos(5);
+            } catch (Exception $e) {
+                log_message('error', 'Error obteniendo movimientos: ' . $e->getMessage());
+            }
+            
+            $this->load->view('jefe/header', $data);
+            $this->load->view('jefe/dashboard', $data);
+            $this->load->view('jefe/footer');
+            
+        } catch (Exception $e) {
+            log_message('error', 'Error fatal en Jefe/index: ' . $e->getMessage());
+            echo "<h1>Error del Sistema</h1>";
+            echo "<p>Ocurrió un error al cargar el dashboard: " . $e->getMessage() . "</p>";
+            echo "<pre>" . $e->getTraceAsString() . "</pre>";
+        }
+    }
+
+    // Alias para que /jefe/dashboard funcione igual que /jefe
+    public function dashboard() {
+        $this->index();
     }
 
     // Gestión de Productos (solo visualización)

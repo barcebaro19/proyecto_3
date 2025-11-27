@@ -97,7 +97,7 @@
 $(document).ready(function() {
   $('#movimientosTable').DataTable({
     language: {
-      url: '//cdn.datatables.net/plug-ins/1.13.7/i18n/es-ES.json'
+      url: '<?= IP_SERVER ?>assets/datatables/es-ES.json'
     },
     order: [[0, 'desc']], // Ordenar por ID descendente (más recientes primero)
     pageLength: 25,

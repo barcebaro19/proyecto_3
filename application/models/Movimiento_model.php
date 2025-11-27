@@ -7,19 +7,6 @@ class Movimiento_model extends CI_Model {
         parent::__construct();
         $this->load->database();
         $this->load->helper('date');
-
-        // Auto-fix: Create table if it doesn't exist
-        $sql = "CREATE TABLE IF NOT EXISTS movimientos_inventario (
-            id_movimiento INT AUTO_INCREMENT PRIMARY KEY,
-            id_producto INT NOT NULL,
-            tipo_movimiento ENUM('entrada', 'salida') NOT NULL,
-            cantidad INT NOT NULL,
-            descripcion TEXT,
-            fecha_movimiento DATETIME DEFAULT CURRENT_TIMESTAMP,
-            creado_por INT,
-            INDEX (id_producto)
-        ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;";
-        $this->db->query($sql);
     }
 
     /**
@@ -43,28 +30,28 @@ class Movimiento_model extends CI_Model {
     public function obtener_recientes($limit = 10) {
         $this->db->select('
             m.id_movimiento,
-            m.tipo_movimiento as tipo,
+            m.tipo,
             m.cantidad,
             m.descripcion,
-            m.fecha_movimiento as fecha,
+            m.fecha,
             p.codigo_interno,
             r.nombre_referencia,
-            p.color,
-            p.talla
+            CONCAT(u.nombre, " ", u.apellido) as usuario_nombre
         ');
-        $this->db->from('movimientos_inventario m');
-        $this->db->join('productos p', 'p.id_producto = m.id_producto');
-        $this->db->join('referencias r', 'r.id_referencia = p.id_referencia');
-        $this->db->order_by('m.fecha_movimiento', 'DESC');
+        $this->db->from('movimientos m');
+        $this->db->join('productos p', 'p.id_producto = m.id_producto', 'left');
+        $this->db->join('referencias r', 'r.id_referencia = p.id_referencia', 'left');
+        $this->db->join('usuarios u', 'u.id_usuario = m.realizado_por', 'left');
+        $this->db->order_by('m.fecha', 'DESC');
         $this->db->limit($limit);
         
         $query = $this->db->get();
         
         if ($query->num_rows() > 0) {
             $result = $query->result();
-            // Formatear para la vista
+            // Formatear para la vista (compatibilidad con vistas que esperan producto_nombre)
             foreach ($result as &$row) {
-                $row->producto_nombre = $row->nombre_referencia . ' ' . $row->color . ' ' . $row->talla;
+                $row->producto_nombre = trim(($row->nombre_referencia ?? '') . ' ' . ($row->codigo_interno ?? ''));
             }
             return $result;
         }
@@ -114,12 +101,13 @@ class Movimiento_model extends CI_Model {
         
         $this->db->select([
             'DATE_FORMAT(fecha, "%Y-%m") as mes',
-            'COUNT(CASE WHEN m.tipo = "entrada" THEN 1 END) as entradas',
-            'COUNT(CASE WHEN m.tipo = "salida" THEN 1 END) as salidas',
+            // En BD los valores son 'ENTRADA' y 'SALIDA'
+            'COUNT(CASE WHEN tipo = "ENTRADA" THEN 1 END) as entradas',
+            'COUNT(CASE WHEN tipo = "SALIDA" THEN 1 END) as salidas',
             'COUNT(*) as total'
         ]);
-        $this->db->from('movimientos m');
-        $this->db->where('m.fecha >=', $start_date);
+        $this->db->from('movimientos');
+        $this->db->where('fecha >=', $start_date);
         $this->db->group_by('mes');
         $this->db->order_by('mes', 'ASC');
         
@@ -134,7 +122,17 @@ class Movimiento_model extends CI_Model {
      * @return bool True si se registró correctamente, False en caso contrario
      */
     public function registrar_movimiento($data) {
-        return $this->db->insert('movimientos_inventario', $data);
+        // Normalizar claves al esquema real
+        $row = [
+            'id_producto'   => $data['id_producto'],
+            'tipo'          => $data['tipo'],
+            'cantidad'      => $data['cantidad'],
+            'descripcion'   => $data['descripcion'] ?? null,
+            'realizado_por' => $data['realizado_por'] ?? ($data['id_usuario'] ?? null),
+            'fecha'         => $data['fecha'] ?? date('Y-m-d H:i:s'),
+        ];
+
+        return $this->db->insert('movimientos', $row);
     }
 
     /**
@@ -145,11 +143,14 @@ class Movimiento_model extends CI_Model {
      * @return array Lista de movimientos del producto
      */
     public function get_movimientos_producto($id_producto, $limit = 10) {
-        $this->db->where('id_producto', $id_producto);
-        $this->db->order_by('fecha_movimiento', 'DESC');
+        $this->db->select('m.*, u.nombre, u.apellido');
+        $this->db->from('movimientos m');
+        $this->db->join('usuarios u', 'u.id_usuario = m.realizado_por', 'left');
+        $this->db->where('m.id_producto', $id_producto);
+        $this->db->order_by('m.fecha', 'DESC');
         $this->db->limit($limit);
         
-        return $this->db->get('movimientos_inventario')->result();
+        return $this->db->get()->result();
     }
 
     /**
@@ -162,23 +163,21 @@ class Movimiento_model extends CI_Model {
     public function obtener_todos($limit = 200) {
         $this->db->select('
             m.id_movimiento,
-            m.tipo_movimiento,
+            m.tipo as tipo_movimiento,
             m.cantidad,
             m.descripcion,
-            m.fecha_movimiento,
+            m.fecha as fecha_movimiento,
             p.codigo_interno,
-            p.color,
-            p.talla,
             r.codigo_referencia,
             r.nombre_referencia,
             u.nombre AS nombre_usuario,
             u.apellido AS apellido_usuario
         ');
-        $this->db->from('movimientos_inventario m');
+        $this->db->from('movimientos m');
         $this->db->join('productos p', 'p.id_producto = m.id_producto', 'left');
         $this->db->join('referencias r', 'r.id_referencia = p.id_referencia', 'left');
-        $this->db->join('usuarios u', 'u.id_usuario = m.creado_por', 'left');
-        $this->db->order_by('m.fecha_movimiento', 'DESC');
+        $this->db->join('usuarios u', 'u.id_usuario = m.realizado_por', 'left');
+        $this->db->order_by('m.fecha', 'DESC');
 
         if ($limit !== null) {
             $this->db->limit($limit);
@@ -194,10 +193,10 @@ class Movimiento_model extends CI_Model {
      */
     public function obtener_totales_por_producto($id_producto) {
         $this->db->select('
-            COALESCE(SUM(CASE WHEN tipo_movimiento = "entrada" THEN cantidad ELSE 0 END), 0) as total_entradas,
-            COALESCE(SUM(CASE WHEN tipo_movimiento = "salida" THEN cantidad ELSE 0 END), 0) as total_salidas
+            COALESCE(SUM(CASE WHEN tipo = "ENTRADA" THEN cantidad ELSE 0 END), 0) as total_entradas,
+            COALESCE(SUM(CASE WHEN tipo = "SALIDA" THEN cantidad ELSE 0 END), 0) as total_salidas
         ');
-        $this->db->from('movimientos_inventario');
+        $this->db->from('movimientos');
         $this->db->where('id_producto', $id_producto);
         return $this->db->get()->row();
     }

@@ -376,7 +376,7 @@ class Admin extends MY_Controller {
             }
             
             try {
-                $actividad_reciente = $this->movimiento->obtener_recientes(10);
+                $actividad_reciente = $this->movimiento->get_ultimos_movimientos(10);
             } catch (Exception $e) {
                 log_message('error', 'Error al obtener actividad reciente: ' . $e->getMessage());
             }
@@ -1099,8 +1099,79 @@ class Admin extends MY_Controller {
         $this->output
             ->set_content_type('application/json')
             ->set_output(json_encode([
-                'success' => $ok ? true : false,
+                'success' => $ok,
                 'message' => $ok ? 'Producto eliminado correctamente' : 'No se pudo eliminar el producto'
+            ]));
+    }
+
+    /**
+     * OBTENER SIGUIENTE CÓDIGO INTERNO PARA UNA REFERENCIA (AJAX)
+     */
+    public function obtener_siguiente_codigo() {
+        if (!$this->input->is_ajax_request()) {
+            show_404();
+        }
+
+        $id_referencia = $this->input->post('id_referencia');
+
+        if (empty($id_referencia) || !is_numeric($id_referencia)) {
+            $this->output
+                ->set_content_type('application/json')
+                ->set_output(json_encode([
+                    'success' => false,
+                    'message' => 'ID de referencia no válido'
+                ]));
+            return;
+        }
+
+        // Obtener la referencia
+        $referencia = $this->db->get_where('referencias', ['id_referencia' => $id_referencia])->row();
+
+        if (!$referencia) {
+            $this->output
+                ->set_content_type('application/json')
+                ->set_output(json_encode([
+                    'success' => false,
+                    'message' => 'Referencia no encontrada'
+                ]));
+            return;
+        }
+
+        // Obtener el último código interno para esta referencia
+        $this->db->select('codigo_interno');
+        $this->db->from('productos');
+        $this->db->where('id_referencia', $id_referencia);
+        $this->db->like('codigo_interno', $referencia->codigo_referencia, 'after');
+        $this->db->order_by('id_producto', 'DESC');
+        $this->db->limit(1);
+        $ultimo_producto = $this->db->get()->row();
+
+        // Generar el siguiente código
+        if ($ultimo_producto) {
+            // Extraer el número del último código (ej: CAMIS-S-AZUL-001 -> 001)
+            $codigo_base = $referencia->codigo_referencia . '-';
+            $ultimo_codigo = $ultimo_producto->codigo_interno;
+            
+            // Intentar extraer el número al final
+            if (preg_match('/-(\d+)$/', $ultimo_codigo, $matches)) {
+                $numero = intval($matches[1]) + 1;
+            } else {
+                $numero = 1;
+            }
+        } else {
+            $numero = 1;
+        }
+
+        // Formatear el código con ceros a la izquierda
+        $prefijo = !empty($referencia->codigo_referencia) ? $referencia->codigo_referencia : 'PROD';
+        $siguiente_codigo = $prefijo . '-' . str_pad($numero, 3, '0', STR_PAD_LEFT);
+
+        $this->output
+            ->set_content_type('application/json')
+            ->set_output(json_encode([
+                'success' => true,
+                'codigo' => $siguiente_codigo,
+                'codigo_referencia' => $referencia->codigo_referencia
             ]));
     }
 

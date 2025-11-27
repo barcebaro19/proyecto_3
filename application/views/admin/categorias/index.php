@@ -198,7 +198,7 @@
         // Inicializar DataTable con configuración en español
         $('#dataTable').DataTable({
             language: {
-                url: '//cdn.datatables.net/plug-ins/1.13.7/i18n/es-ES.json',
+                url: '<?= IP_SERVER ?>assets/datatables/es-ES.json',
                 emptyTable: '<div class="d-flex flex-column align-items-center py-5"><i class="fas fa-folder-open text-muted mb-3" style="font-size: 3rem;"></i><h5 class="text-muted">No hay categorías registradas</h5></div>'
             },
             order: [[0, "desc"]],

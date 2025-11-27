@@ -11,8 +11,8 @@
     # Deshabilitar listado de directorios
     Options -Indexes
     
-    # Bloquear acceso a archivos sensibles
-    <FilesMatch "\.(env|\.env|gitignore|gitattributes|\.htaccess|\.htpasswd|ini|log|sh|inc|bak|sql|json|lock|md|txt|dist|config|yaml|yml|phar)$">
+    # Bloquear acceso a archivos sensibles (permitiendo JSON para DataTables)
+    <FilesMatch "\.(env|\.env|gitignore|gitattributes|\.htaccess|\.htpasswd|ini|log|sh|inc|bak|sql|lock|md|txt|dist|config|yaml|yml|phar)$">
         Order allow,deny
         Deny from all
     </FilesMatch>

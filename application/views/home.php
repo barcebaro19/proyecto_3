@@ -1,113 +1,118 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BodegaPro - Gestión de Inventario</title>
-  <link href="<?php echo base_url('assets/css/bootstrap.min.css'); ?>" rel="stylesheet">
-  <link href="<?php echo base_url('assets/css/bootstrap-icons.css'); ?>" rel="stylesheet">
-  <link href="<?php echo base_url('assets/css/forms/forms.css'); ?>" rel="stylesheet">
-  <link href="assets/css/fonts/css2.css" rel="stylesheet">
-  <script src="<?php echo base_url('assets/js/jquery-3.6.0.min.js'); ?>"></script>
-  <script src="<?php echo base_url('assets/js/bootstrap.bundle.min.js'); ?>"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKIPPER - Gestión de Inventario Inteligente</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="<?php echo base_url('assets/css/forms/home-neon.css'); ?>" rel="stylesheet">
 </head>
-<body class="home-page">
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark justify-content-center">
-    <div class="container d-flex justify-content-center">
-      <a class="navbar-brand fs-3" href="#">
-        <i class="bi bi-box-seam"></i>Sistema de Bodega
-      </a>
-    </div>
-  </nav>
+<body>
 
-  <!-- Contenido Principal -->
-  <div class="main-container">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-10">
-          <div class="welcome-card">
-            <div class="card-body text-center">
-              <h1>Gestión de Inventario Inteligente</h1>
-              <p class="lead-text">
-                Bienvenido
-                <br>
-                la solución integral para la gestión de inventario de tu negocio. 
-                Controla tus productos, existencias y movimientos de manera eficiente y en tiempo real.
-              </p>
+    <header>
+        <a href="#inicio" class="logo-skkiper">SKIPPER</a>
 
-              <!-- Sección de Características -->
-              <div class="row g-4">
-                <div class="col-md-6 col-lg-3">
-                  <div class="feature-card h-100">
-                    <div class="feature-icon mx-auto">
-                      <i class="bi bi-box-seam"></i>
-                    </div>
-                    <h5 class="text-center">Gestión de Productos</h5>
-                    <p class="text-center">Administra tu inventario de manera eficiente con nuestro sistema intuitivo y fácil de usar.</p>
-                  </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <a href="<?php echo site_url('login'); ?>" class="login-button-header">
+            <i class="fas fa-sign-in-alt"></i> Iniciar Sesión
+        </a>
+    </header>
+
+    <section id="inicio" class="page-section">
+        <div class="main-container">
+
+            <h1>Gestión de Inventario Inteligente</h1>
+            <p class="welcome-text">
+                La solución integral para la gestión de inventario de tu negocio. 
+                Controla tus productos, existencias y movimientos de manera eficiente y en tiempo real con Skipper.
+            </p>
+
+            <div class="modules-grid">
+
+                <div class="module-card">
+                    <i class="fas fa-box"></i>
+                    <h3>Gestión de Productos</h3>
+                    <p>Administra tu inventario de manera eficiente con un sistema intuitivo y fácil de usar.</p>
+                </div>
+
+                <div class="module-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Reportes en Tiempo Real</h3>
+                    <p>Visualiza el estado de tu inventario con reportes detallados y analíticos en tiempo real.</p>
+                </div>
+
+                <div class="module-card">
+                    <i class="fas fa-users-cog"></i>
+                    <h3>Control de Accesos</h3>
+                    <p>Gestiona usuarios y permisos de forma segura según los roles de tu equipo de trabajo.</p>
+                </div>
+
+                <div class="module-card">
+                    <i class="fas fa-exchange-alt"></i>
+                    <h3>Movimientos</h3>
+                    <p>Registra y realiza un seguimiento de todos los entradas y salidas de productos.</p>
                 </div>
                 
-                <div class="col-md-6 col-lg-3">
-                  <div class="feature-card h-100">
-                    <div class="feature-icon mx-auto">
-                      <i class="bi bi-graph-up"></i>
-                    </div>
-                    <h5 class="text-center">Reportes en Tiempo Real</h5>
-                    <p class="text-center">Visualiza el estado de tu inventario con reportes detallados y análisis en tiempo real.</p>
-                  </div>
-                </div>
-                
-                <div class="col-md-6 col-lg-3">
-                  <div class="feature-card h-100">
-                    <div class="feature-icon mx-auto">
-                      <i class="bi bi-people"></i>
-                    </div>
-                    <h5 class="text-center">Control de Accesos</h5>
-                    <p class="text-center">Gestiona usuarios y permisos de forma segura según los roles de tu equipo de trabajo.</p>
-                  </div>
-                </div>
-                
-                <div class="col-md-6 col-lg-3">
-                  <div class="feature-card h-100">
-                    <div class="feature-icon mx-auto">
-                      <i class="bi bi-arrow-left-right"></i>
-                    </div>
-                    <h5 class="text-center">Movimientos</h5>
-                    <p class="text-center">Registra y realiza un seguimiento de todas las entradas y salidas de productos.</p>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Botón de Acción Principal -->
-              <div class="text-center mt-5 pt-3">
-                <a href="<?php echo site_url('login'); ?>" class="btn btn-login text-white">
-                  <i class="bi bi-box-arrow-in-right"></i> Iniciar Sesión
-                </a>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
+    </section>
+
+   <section id="galeria" class="page-section">
+    <h2 class="section-title">productos</h2>
+    
+    <div class="galeria-contenedor">
+        
+        <div class="galeria-item">
+            <img src="assets/imagen/imagen1.png" alt="Dashboard Principal de Skipper">
+            <div class="overlay">Dashboard Principal</div>
+        </div>
+
+        <div class="galeria-item">
+            <img src="assets/imagen/imagen2.png" alt="Interfaz de Reportes de Skipper">
+            <div class="overlay">Vista de Reportes</div>
+        </div>
+
+        <div class="galeria-item">
+            <img src="assets/imagen/imagen3.png" alt="Vista de Gestión de Productos">
+            <div class="overlay">Gestión de Productos</div>
+        </div>
+
     </div>
-  </div>
-  
-  <script>
-    // Asegurar que los iconos de las tarjetas tengan el mismo tamaño
-    document.addEventListener('DOMContentLoaded', function() {
-      const featureIcons = document.querySelectorAll('.feature-icon i');
-      let maxWidth = 0;
-      
-      // Encontrar el ancho máximo
-      featureIcons.forEach(icon => {
-        icon.style.display = 'inline-block';
-        maxWidth = Math.max(maxWidth, icon.offsetWidth);
-      });
-      
-      // Aplicar el ancho máximo a todos los iconos
-      featureIcons.forEach(icon => {
-        icon.style.width = maxWidth + 'px';
-        icon.style.textAlign = 'center';
-      });
-    });
-  </script>
+</section>
+
+    <section id="contacto" class="page-section">
+        <h2 class="section-title">📞 Contáctanos</h2>
+        <div class="content-placeholder">
+            <p style="margin-bottom: 20px; color: #AAAAAA;">Síguenos en nuestras redes sociales</p>
+            <div class="social-icons-container">
+                <a href="URL_TU_FACEBOOK" target="_blank" class="icon facebook">
+                    <div class="tooltip">Facebook</div>
+                    <span><i class="fab fa-facebook-f"></i></span>
+                </a>
+
+                <a href="https://wa.me/NUMERO_DE_TELEFONO" target="_blank" class="icon whatsapp">
+                    <div class="tooltip">WhatsApp</div>
+                    <span><i class="fab fa-whatsapp"></i></span>
+                </a>
+
+                <a href="URL_TU_INSTAGRAM" target="_blank" class="icon instagram">
+                    <div class="tooltip">Instagram</div>
+                    <span><i class="fab fa-instagram"></i></span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; <?php echo date('Y'); ?> SKIPPER - Sistema de Gestión de Inventario</p>
+    </footer>
+
+</body>
+</html>

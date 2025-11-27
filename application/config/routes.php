@@ -15,6 +15,8 @@ $route['admin/actualizar_producto'] = 'admin/actualizar_producto';
 $route['admin/eliminar_producto/(:num)'] = 'admin/eliminar_producto/$1';
 $route['admin/ver_producto/(:num)'] = 'admin/ver_producto/$1';
 $route['admin/editar_producto/(:num)'] = 'admin/editar_producto/$1';
+$route['admin/obtener_siguiente_codigo'] = 'admin/obtener_siguiente_codigo'; // Nueva ruta
+$route['admin/registrar_movimiento'] = 'admin/registrar_movimiento'; // Nueva ruta
 
 // Rutas de referencias
 $route['admin/referencias'] = 'admin/referencias';
@@ -46,12 +48,18 @@ $route['administrador/categorias/eliminar/(:num)'] = 'categoria/eliminar/$1';
 $route['administrador/movimientos'] = 'admin/movimientos';
 
 // Rutas de jefe
-$route['jefe'] = 'jefe/dashboard';
+$route['jefe'] = 'jefe/index';
 $route['jefe/dashboard'] = 'jefe/dashboard';
 $route['jefe/productos'] = 'jefe/productos';
+$route['jefe/ver_producto/(:num)'] = 'jefe/ver_producto/$1';
+$route['jefe/reportes'] = 'jefe/reportes';
+$route['jefe/perfil'] = 'jefe/perfil';
 
 // Rutas de API
 $route['api/categorias/select2'] = 'categoria/get_categorias_select2';
+
+// Ruta de respaldo para dashboard genérico (redirige según rol)
+$route['dashboard'] = 'dashboard/index';
 
 // Ruta por defecto
 $route['default_controller'] = 'home';

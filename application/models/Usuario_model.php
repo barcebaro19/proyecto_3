@@ -131,6 +131,8 @@ class Usuario_model extends CI_Model {
         $usuario = $this->db->get()->row();
 
         if ($usuario && password_verify($password, $usuario->contrasena)) {
+            // Agregar propiedad 'rol' para compatibilidad con Login controller
+            $usuario->rol = $usuario->nombre_rol;
             return $usuario;
         }
         

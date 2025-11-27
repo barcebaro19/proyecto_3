@@ -150,7 +150,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (typeof $ !== 'undefined' && $.fn.DataTable) {
             $('#referenciasTable').DataTable({
                 language: {
-                    url: '//cdn.datatables.net/plug-ins/1.13.7/i18n/es-ES.json'
+                    url: '<?= IP_SERVER ?>assets/datatables/es-ES.json'
                 },
                 dom: '<"row"<"col-sm-12 col-md-6"l><"col-sm-12 col-md-6"f>>' +
                      '<"row"<"col-sm-12 col-md-6"B>>' +
@@ -210,6 +210,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     if (typeof $ !== 'undefined') {
                         $('#nuevaReferenciaModal').modal('hide');
                     }
+                    setTimeout(() => location.reload(), 1500);
                 } else {
                     showAlert('error', 'Error', data.message || 'Error al crear la referencia');
                 }

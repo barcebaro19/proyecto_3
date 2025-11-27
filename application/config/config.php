@@ -380,12 +380,12 @@ $config['encryption_key'] = 'GTI2017';
 */
 $config['sess_driver'] = 'files';
 $config['sess_cookie_name'] = 'ci_session';
-$config['sess_samesite'] = 'Lax';
-$config['sess_expiration'] = 7200; // 2 horas
-$config['sess_save_path'] = sys_get_temp_dir(); // Usar el directorio temporal del sistema
+$config['sess_expiration'] = 7200;
+$config['sess_save_path'] = APPPATH . 'sessions';
 $config['sess_match_ip'] = FALSE;
 $config['sess_time_to_update'] = 300;
 $config['sess_regenerate_destroy'] = FALSE;
+
 /*
 |--------------------------------------------------------------------------
 | Cookie Related Variables
@@ -398,16 +398,13 @@ $config['sess_regenerate_destroy'] = FALSE;
 | 'cookie_httponly' = Cookie will only be accessible via HTTP(S) (no javascript)
 | 'cookie_samesite' = Cookie's samesite attribute (Lax, Strict or None)
 |
-| Note: These settings (with the exception of 'cookie_prefix' and
-|       'cookie_httponly') will also affect sessions.
-|
 */
-$config['cookie_prefix']	= '';
-$config['cookie_domain']	= '';
-$config['cookie_path']		= '/';
-$config['cookie_secure']	= FALSE;
-$config['cookie_httponly'] 	= FALSE;
-$config['cookie_samesite'] 	= 'Lax';
+$config['cookie_prefix']    = '';
+$config['cookie_domain']    = '';
+$config['cookie_path']      = '/';
+$config['cookie_secure']    = FALSE;
+$config['cookie_httponly']  = FALSE;
+$config['cookie_samesite'] = 'Lax';
 /*
 |--------------------------------------------------------------------------
 | Standardize newlines

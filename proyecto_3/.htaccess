@@ -1,0 +1,113 @@
+
+# Habilitar el motor de reescritura
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    
+    # Asegurar que esté habilitado el módulo de reescritura
+    <IfModule !mod_rewrite.c>
+        ErrorDocument 500 "El módulo mod_rewrite no está habilitado. Por favor, habilítelo para continuar."
+    </IfModule>
+    
+    # Deshabilitar listado de directorios
+    Options -Indexes
+    
+    # Bloquear acceso a archivos sensibles
+    <FilesMatch "\.(env|\.env|gitignore|gitattributes|\.htaccess|\.htpasswd|ini|log|sh|inc|bak|sql|json|lock|md|txt|dist|config|yaml|yml|phar)$">
+        Order allow,deny
+        Deny from all
+    </FilesMatch>
+    
+    # Prevenir acceso a archivos ocultos
+    <FilesMatch "^\.">
+        Order allow,deny
+        Deny from all
+    </FilesMatch>
+
+    # Ajustar la ruta base según la ubicación del proyecto
+    RewriteBase /proyecto_3/
+
+    # Permitir acceso directo a archivos y directorios existentes
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    
+    # Redirigir todo lo demás al front controller
+    RewriteRule ^(.*)$ index.php?/$1 [L,QSA]
+    
+    # Redirigir a HTTPS (opcional, descomenta si es necesario)
+    # RewriteCond %{HTTPS} off
+    # RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+</IfModule>
+
+# Configuración de seguridad adicional
+<IfModule mod_headers.c>
+    # Proteger contra clickjacking
+    Header always append X-Frame-Options SAMEORIGIN
+    
+    # Prevenir XSS
+    Header set X-XSS-Protection "1; mode=block"
+    
+    # Prevenir MIME type sniffing
+    Header set X-Content-Type-Options "nosniff"
+    
+    # Configurar política de seguridad de contenido
+    # Ajusta según sea necesario para tu aplicación
+    # Header set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data:;"
+    
+    # HSTS (HTTP Strict Transport Security)
+    # Descomenta después de implementar HTTPS
+    # Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+</IfModule>
+
+# Configuración de caché para mejorar el rendimiento
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType image/jpg "access plus 1 year"
+    ExpiresByType image/jpeg "access plus 1 year"
+    ExpiresByType image/gif "access plus 1 year"
+    ExpiresByType image/png "access plus 1 year"
+    ExpiresByType text/css "access plus 1 month"
+    ExpiresByType application/pdf "access plus 1 month"
+    ExpiresByType text/x-javascript "access plus 1 month"
+    ExpiresByType application/x-shockwave-flash "access plus 1 month"
+    ExpiresByType image/x-icon "access plus 1 year"
+    ExpiresDefault "access plus 2 days"
+    
+    # Configuración de caché para navegadores
+    <IfModule mod_headers.c>
+        <FilesMatch "\.(ico|jpe?g|png|gif|swf|css|js|woff2?|eot|ttf|svg)$">
+            Header set Cache-Control "public, max-age=2592000, must-revalidate"
+        </FilesMatch>
+    </IfModule>
+</IfModule>
+
+# Comprimir archivos para mejorar el rendimiento
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/plain
+    AddOutputFilterByType DEFLATE text/html
+    AddOutputFilterByType DEFLATE text/xml
+    AddOutputFilterByType DEFLATE text/css
+    AddOutputFilterByType DEFLATE application/xml
+    AddOutputFilterByType DEFLATE application/xhtml+xml
+    AddOutputFilterByType DEFLATE application/rss+xml
+    AddOutputFilterByType DEFLATE application/javascript
+    AddOutputFilterByType DEFLATE text/javascript
+</IfModule>
+
+# Manejo de errores personalizado
+ErrorDocument 400 /errors/400.php
+ErrorDocument 401 /errors/401.php
+ErrorDocument 403 /errors/403.php
+ErrorDocument 404 /errors/404.php
+ErrorDocument 500 /errors/500.php
+
+# Deshabilitar la firma del servidor
+ServerSignature Off
+
+# Prevenir que se muestre la versión de PHP
+<IfModule mod_headers.c>
+    Header unset X-Powered-By
+</IfModule>
+
+# Asegurar que PHP no muestre errores
+php_flag display_errors off
+php_value error_reporting 0

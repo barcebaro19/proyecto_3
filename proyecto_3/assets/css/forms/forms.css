@@ -1,0 +1,1718 @@
+/* Estilos generales */
+body {
+  background: #f8f9fa;
+}
+
+/* Estilos para tarjetas de características */
+.feature-card {
+  background: #fff;
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: all 0.3s ease-in-out;
+  transform: perspective(600px) translateZ(0);
+  height: 100%;
+}
+
+.feature-card:hover {
+  transform: perspective(600px) translateY(-10px) translateZ(15px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.feature-icon {
+  font-size: 2.5rem;
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+.feature-card h5 {
+  font-weight: 600;
+  color: #343a40;
+}
+
+.feature-card p {
+  color: #6c757d;
+  font-size: 0.95rem;
+}
+
+/* Estilos para el footer */
+footer {
+  background: #fff;
+  border-top: 1px solid #dee2e6;
+}
+
+/* Estilos base para formularios */
+.form-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 1.25rem;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: #374151;
+}
+
+.form-control {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #4b5563;
+    background-color: #fff;
+    border: 1px solid #d1d5db;
+    border-radius: 0.375rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus {
+    border-color: #3b82f6;
+    outline: 0;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.25);
+}
+
+/* Estilos para botones */
+.btn {
+    display: inline-block;
+    font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.375rem;
+    transition: all 0.15s ease-in-out;
+    cursor: pointer;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #052455;
+    border: 1px solid #3b82f6;
+}
+
+.btn-primary:hover {
+    background-color: #2563eb;
+    border-color: #2563eb;
+}
+
+/* Estilos para mensajes de validación */
+.invalid-feedback {
+    display: block;
+    margin-top: 0.25rem;
+    font-size: 0.875rem;
+    color: #ef4444;
+}
+
+.is-invalid {
+    border-color: #ef4444 !important;
+}
+
+/* Estilos para checkboxes y radios */
+.form-check {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.form-check-input {
+    margin-right: 0.5rem;
+}
+
+/* Estilos para select */
+select.form-control {
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 0.5rem center;
+    background-size: 1.5em 1.5em;
+    padding-right: 2.5rem;
+}
+
+/* Estilos responsivos */
+@media (max-width: 640px) {
+    .form-container {
+        margin: 1rem;
+        padding: 1rem;
+    }
+}
+
+/* Estilos para el login */
+.login-container {
+    max-width: 700px;
+    margin: 100px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    background: #fff;
+}
+
+.login-logo {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Contenedor principal del formulario */
+.register-container {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 2rem auto;
+    max-width: 1200px;
+    border: 1px solid #e9ecef;
+    transition: all 0.3s ease;
+}
+
+.register-container:hover,
+.login-container:hover {
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+    transform: translateY(-2px);
+}
+
+/* Estilos para el cuerpo del formulario */
+.register-body,
+.login-body {
+    padding: 2.5rem;
+}
+
+/* Estilos para las secciones del formulario */
+.form-section {
+    background: #f8f9fa;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #e9ecef;
+    transition: all 0.3s ease;
+}
+
+.form-section:hover {
+    border-color: #dee2e6;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Títulos de sección */
+.form-section h5 {
+    color: #343a40;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid #e9ecef;
+    display: flex;
+    align-items: center;
+}
+
+.form-section h5 i {
+    margin-right: 10px;
+    color: var(--primary-color);
+}
+
+/* Grupos de formulario */
+.form-group {
+    margin-bottom: 1.25rem;
+    position: relative;
+}
+
+/* Etiquetas */
+.form-label {
+    font-weight: 500;
+    color: #495057;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+/* Campos de entrada */
+.form-control {
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+    padding: 0.75rem 1rem;
+    font-size: 0.95rem;
+    transition: all 0.2s ease;
+    background-color: #fff;
+}
+
+.form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.2rem rgba(67, 97, 238, 0.15);
+}
+
+/* Grupos de entrada con iconos */
+.input-group-text {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-right: none;
+    color: #6c757d;
+}
+
+.input-group .form-control {
+    border-left: none;
+}
+
+.input-group:focus-within .input-group-text {
+    border-color: var(--primary-color);
+    background-color: #f1f3ff;
+    color: var(--primary-color);
+}
+
+/* Botón de mostrar/ocultar contraseña */
+.toggle-password {
+    background: transparent;
+    border: 1px solid #dee2e6;
+    border-left: none;
+    color: #6c757d;
+    cursor: pointer;
+    padding: 0 12px;
+    border-radius: 0 6px 6px 0;
+    transition: all 0.2s ease;
+}
+
+.toggle-password:hover {
+    background-color: #f1f3ff;
+    color: var(--primary-color);
+}
+
+/* Ajustes para dispositivos móviles */
+@media (max-width: 768px) {
+    .register-body,
+    .login-body {
+        padding: 1.5rem;
+    }
+    
+    .form-section {
+        padding: 1.25rem;
+    }
+    
+    .form-section h5 {
+        font-size: 1.1rem;
+    }
+}
+
+/* Efecto de carga en los botones */
+.btn-loading {
+    position: relative;
+    pointer-events: none;
+    color: transparent !important;
+}
+
+.btn-loading:after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 50%;
+    left: 50%;
+    margin: -10px 0 0 -10px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    border-top-color: transparent;
+    animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+/* Estilos generales para tablas */
+.table-responsive {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    overflow: hidden;
+}
+
+.table th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 0.5px;
+    border-top: none;
+}
+
+/* Estilos para tarjetas */
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-header {
+    background: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    font-weight: 600;
+}
+
+/* Estilos para botones */
+.btn {
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+
+.btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+}
+
+/* Estilos para formularios */
+.form-control {
+    border-radius: 4px;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid #ced4da;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Estilos para alertas */
+.alert {
+    border: none;
+    border-radius: 4px;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+/* Estilos para el sidebar */
+.sidebar {
+    min-height: 100vh;
+    background: #343a40;
+    color: #fff;
+    padding: 0;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar .nav-link {
+    color: rgba(255, 255, 255, 0.8);
+    padding: 12px 20px;
+    border-left: 3px solid transparent;
+    transition: all 0.3s;
+}
+
+.sidebar .nav-link:hover {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+    border-left-color: #007bff;
+}
+
+.sidebar .nav-link.active {
+    color: #fff;
+    background: rgba(0, 123, 255, 0.2);
+    border-left-color: #007bff;
+}
+
+.sidebar .nav-link i {
+    margin-right: 10px;
+    width: 20px;
+    text-align: center;
+}
+
+/* Estilos para el logo del login */
+.login-logo img {
+    max-width: 150px;
+}
+
+/* Estilos para el mensaje de error */
+.alert {
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+/* Estilos para el botón de login */
+.btn-login {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+/* Estilos para el enlace de registro */
+#btnRegistrarse {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease-in-out;
+}
+
+#btnRegistrarse:hover {
+    color: #1d4ed8;
+    text-decoration: none;
+}
+
+/* Estilos para el dashboard */
+.dashboard-card {
+    border-radius: 10px;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-5px);
+}
+
+.dashboard-card .card-icon {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.dashboard-card .card-title {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.dashboard-card .card-value {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+/* Colores para las tarjetas del dashboard */
+.bg-primary-gradient {
+    background: linear-gradient(45deg, #4e73df, #224abe);
+}
+
+.bg-success-gradient {
+    background: linear-gradient(45deg, #1cc88a, #13855c);
+}
+
+.bg-warning-gradient {
+    background: linear-gradient(45deg, #f6c23e, #dda20a);
+}
+
+.bg-danger-gradient {
+    background: linear-gradient(45deg, #e74a3b, #be2617);
+}
+
+/* Estilos para los badges */
+.badge {
+    padding: 0.4em 0.6em;
+    font-weight: 500;
+    border-radius: 4px;
+}
+
+/* Estilos para los tooltips */
+.tooltip-inner {
+    max-width: 300px;
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+}
+
+/* Estilos para la paginación */
+.pagination .page-link {
+    color: #007bff;
+    border: 1px solid #dee2e6;
+    margin: 0 2px;
+    border-radius: 4px;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+/* Estilos para los modales */
+.modal-content {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.modal-header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.modal-footer {
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+/* Estilos para los select2 */
+.select2-container--default .select2-selection--single {
+    height: 38px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 36px;
+}
+
+/* Estilos para los toolbars */
+.toolbar {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilos para los breadcrumbs */
+.breadcrumb {
+    background: none;
+    padding: 0.5rem 0;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+/* Estilos para los tabs */
+.nav-tabs .nav-link {
+    border: none;
+    color: #6c757d;
+    font-weight: 500;
+    padding: 0.75rem 1.25rem;
+}
+
+.nav-tabs .nav-link.active {
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+    background: none;
+}
+
+/* Estilos para los cards de producto */
+.product-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-bottom: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.product-card .card-img-top {
+    height: 160px;
+    object-fit: cover;
+}
+
+.product-card .badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+/* Estilos para el contador de stock */
+.stock-counter {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+.stock-counter .progress {
+    height: 5px;
+    margin-top: 5px;
+}
+
+/* Estilos para los mensajes de validación */
+.invalid-feedback {
+    display: block;
+    width: 100%;
+    margin-top: 0.25rem;
+    font-size: 80%;
+    color: #e74a3b;
+}
+
+/* Estilos para los toolbars de acción */
+.action-toolbar {
+    margin-bottom: 20px;
+    padding: 10px 0;
+    border-bottom: 1px solid #e3e6f0;
+}
+
+/* Estilos para los filtros */
+.filter-box {
+    background: #f8f9fc;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para los avisos de stock bajo */
+.low-stock {
+    color: #e74a3b;
+    font-weight: 600;
+}
+
+/* Estilos para los iconos de acción */
+.action-icon {
+    font-size: 1.1rem;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.action-icon:hover {
+    color: #007bff;
+}
+
+.action-icon.delete:hover {
+    color: #e74a3b;
+}
+
+/* Estilos para los badges de estado */
+.badge-status {
+    padding: 0.35em 0.65em;
+    font-size: 0.75em;
+    font-weight: 600;
+    border-radius: 10rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.badge-active {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.badge-inactive {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+/* Estilos para los toolbars de búsqueda */
+.search-toolbar {
+    margin-bottom: 20px;
+}
+
+/* Estilos para los mensajes de ayuda */
+.help-text {
+    font-size: 0.8rem;
+    color: #6c757d;
+    font-style: italic;
+}
+
+/* Estilos para los contadores */
+.counter {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #4e73df;
+}
+
+/* Estilos para los charts */
+.chart-container {
+    position: relative;
+    height: 300px;
+    width: 100%;
+}
+
+/* Estilos para los tooltips personalizados */
+.custom-tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.custom-tooltip .tooltip-text {
+    visibility: hidden;
+    width: 200px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.custom-tooltip:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+.text-center a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+.text-center a:hover {
+    text-decoration: underline;
+}
+    :root {
+      --primary-color: #f85407;
+      --secondary-color: #f85407;
+      --accent-color: #4cc9f0;
+      --light-color: #f8f9ff;
+      --dark-color: #1a1a2e;
+      --success-color: #4bb543;
+    }
+    
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #f5f7fa 0%, #e4e8f0 100%);
+      min-height: 100vh;
+      color: var(--dark-color);
+    }
+    
+    .navbar {
+      background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%) !important;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      padding: 1rem 0;
+    }
+    
+    .navbar-brand {
+      font-weight: 700;
+      font-size: 1.75rem;
+      letter-spacing: 0.5px;
+      display: flex;
+      align-items: center;
+    }
+    
+    .navbar-brand i {
+      font-size: 1.8rem;
+      margin-right: 0.5rem;
+    }
+    
+    .main-container {
+      padding: 4rem 0;
+    }
+    
+    .welcome-card {
+      background: white;
+      border: none;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(67, 97, 238, 0.1);
+      overflow: hidden;
+      position: relative;
+      z-index: 1;
+    }
+    
+    .welcome-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 8px;
+      background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
+    }
+    
+    .card-body {
+      padding: 3rem;
+    }
+    
+    h1 {
+      font-weight: 700;
+      color: var(--dark-color);
+      margin-bottom: 1.5rem;
+      position: relative;
+      display: inline-block;
+    }
+    
+    h1::after {
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 80px;
+      height: 4px;
+      background: var(--accent-color);
+      border-radius: 2px;
+    }
+    
+    .lead-text {
+      color: #4a5568;
+      font-size: 1.1rem;
+      max-width: 700px;
+      margin: 0 auto 3rem;
+      line-height: 1.7;
+    }
+    
+    .feature-card {
+      background: white;
+      border-radius: 12px;
+      padding: 2rem 1.5rem;
+      height: 100%;
+      transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      border: 1px solid rgba(67, 97, 238, 0.1);
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .feature-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 4px;
+      height: 0;
+      background: var(--primary-color);
+      transition: height 0.3s ease;
+    }
+    
+    .feature-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 15px 30px rgba(67, 97, 238, 0.15);
+      border-color: rgba(67, 97, 238, 0.2);
+    }
+    
+    .feature-card:hover::before {
+      height: 100%;
+    }
+    
+    .feature-icon {
+      font-size: 2.5rem;
+      color: var(--primary-color);
+      margin-bottom: 1.5rem;
+      background: rgba(67, 97, 238, 0.1);
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s ease;
+    }
+    
+    .feature-card:hover .feature-icon {
+      background: var(--primary-color);
+      color: white;
+      transform: scale(1.1);
+    }
+    
+    .feature-card h5 {
+      color: var(--dark-color);
+      font-weight: 600;
+      margin-bottom: 1rem;
+      font-size: 1.2rem;
+    }
+    
+    .feature-card p {
+      color: #64748b;
+      font-size: 0.95rem;
+      line-height: 1.6;
+      margin-bottom: 0;
+    }
+    
+    .btn-login {
+      background: var(--primary-color);
+      border: none;
+      padding: 0.9rem 3rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      border-radius: 50px;
+      font-size: 1.1rem;
+      text-transform: uppercase;
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+      z-index: 1;
+      margin-top: 1rem;
+      box-shadow: 0 4px 15px rgba(67, 97, 238, 0.3);
+    }
+    
+    .btn-login::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 0;
+      height: 100%;
+      background: var(--secondary-color);
+      transition: width 0.3s ease;
+      z-index: -1;
+      border-radius: 50px;
+    }
+    
+    .btn-login:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 7px 20px rgba(67, 97, 238, 0.4);
+    }
+    
+    .btn-login:hover::before {
+      width: 100%;
+    }
+    
+    .btn-login i {
+      margin-right: 8px;
+    }
+    
+    /* Estilos para el encabezado de registro */
+    .register-header {
+        background: linear-gradient(135deg, #4361ee 0%, #3a0ca3 100%) !important;
+        color: white;
+        padding: 2rem 1.5rem;
+        text-align: center;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .register-header h1 {
+        font-size: 1.8rem;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+        color: white;
+    }
+
+/* ===== ESTILOS DEL DASHBOARD ===== */
+
+/* Variables de colores */
+:root {
+  --primary: #4e73df;
+  --success: #1cc88a;
+  --info: #36b9cc;
+  --warning: #f6c23e;
+  --danger: #e74a3b;
+  --secondary: #858796;
+  --light: #f8f9fc;
+}
+
+/* Estilos generales del dashboard */
+.dashboard-container {
+    background-color: var(--light);
+    font-family: 'Nunito', sans-serif;
+}
+
+/* Tarjetas */
+.dashboard-card {
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.15rem 0.75rem 0 rgba(58, 59, 69, 0.1);
+    margin-bottom: 1rem;
+    transition: all 0.2s ease;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-card .card-header {
+    background-color: var(--light);
+    border-bottom: 1px solid #e3e6f0;
+    padding: 0.75rem 1.25rem;
+}
+
+.dashboard-card .card-body {
+    padding: 1rem 1.25rem;
+}
+
+.dashboard-card .card-title {
+    color: #5a5c69;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+/* Tarjetas de estadísticas */
+.stat-card {
+    border-left: 0.25rem solid;
+    border-radius: 0.35rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.stat-icon {
+    font-size: 2rem;
+    opacity: 0.3;
+    position: absolute;
+    right: 1.5rem;
+    top: 1rem;
+}
+
+.stat-number {
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.stat-text {
+    color: #5a5c69;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+}
+
+/* Áreas de gráficos */
+.chart-area {
+    position: relative;
+    height: 12rem;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .chart-area {
+        height: 14rem;
+    }
+}
+
+/* Actividad reciente */
+.activity-item {
+    position: relative;
+    padding: 0.5rem 0 0.5rem 1.5rem;
+    border-left: 2px solid #e3e6f0;
+    margin-bottom: 1rem;
+}
+
+.activity-time {
+    color: #b7b9cc;
+    font-size: 0.7rem;
+    display: block;
+}
+
+/* Contenedor de tarjetas de estadísticas */
+.dashboard-cards {
+  margin-bottom: 1.5rem;
+}
+
+.dashboard-card {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15);
+  transition: all 0.3s ease;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-card .card-body {
+  padding: 1.25rem;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard-card .card-title {
+  color: #5a5c69;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.dashboard-card .card-value {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.dashboard-card .card-icon {
+  font-size: 2rem;
+  color: #dddfeb;
+  position: absolute;
+  right: 1.25rem;
+  top: 1.25rem;
+  opacity: 0.4;
+}
+
+.dashboard-card .card-footer {
+  background-color: rgba(0, 0, 0, 0.03);
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 0.75rem 1.25rem;
+}
+
+/* Colores para las tarjetas */
+.dashboard-card.primary {
+  border-left: 4px solid var(--primary);
+}
+
+.dashboard-card.success {
+  border-left: 4px solid var(--success);
+}
+
+.dashboard-card.info {
+  border-left: 4px solid var(--info);
+}
+
+.dashboard-card.warning {
+  border-left: 4px solid var(--warning);
+}
+
+/* Icon circles */
+.icon-circle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  background-color: var(--light);
+}
+
+.bg-primary-light {
+  background-color: var(--primary-light) !important;
+}
+
+.bg-success-light {
+  background-color: var(--success-light) !important;
+}
+
+.bg-info-light {
+  background-color: var(--info-light) !important;
+}
+
+.bg-warning-light {
+  background-color: var(--warning-light) !important;
+}
+
+/* Responsive */
+@media (max-width: 1200px) {
+  .dashboard-card .card-value {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .dashboard-card {
+    margin-bottom: 1rem;
+  }
+}
+.card-stat {
+    border-left: 3px solid #4e73df;
+    transition: all 0.2s ease;
+    margin-bottom: 0;
+    height: 100%;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.card-stat:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1) !important;
+}
+
+.card-stat .card-body {
+    padding: 1rem;
+}
+
+.card-stat .icon {
+    font-size: 1.5rem;
+}
+
+/* Colores para las tarjetas */
+.card-stat.primary {
+    border-left-color: #4e73df;
+}
+
+.card-stat.primary .icon {
+    color: #4e73df;
+}
+
+.card-stat.success {
+    border-left-color: #1cc88a;
+}
+
+.card-stat.success .icon {
+    color: #1cc88a;
+}
+
+.card-stat.warning {
+    border-left-color: #f6c23e;
+}
+
+.card-stat.warning .icon {
+    color: #f6c23e;
+}
+
+.card-stat.danger {
+    border-left-color: #e74a3b;
+}
+
+.card-stat.danger .icon {
+    color: #e74a3b;
+}
+
+/* Estilos para el texto en tarjetas */
+.card-stat h6 {
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-bottom: 0.25rem;
+    color: #6c757d;
+    text-transform: uppercase;
+}
+
+.card-stat h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+    color: #2c3e50;
+}
+
+.card-stat .small {
+    font-size: 0.75rem;
+    color: #6c757d;
+}
+
+/* Ajustes para los iconos */
+.bg-opacity-10 {
+    opacity: 0.1;
+}
+
+/* Ajustes de espaciado */
+.g-4 {
+    gap: 1rem !important;
+}
+
+/* Ajustes para el contenido */
+.chart-area {
+    min-height: 250px;
+    position: relative;
+    width: 100%;
+}
+
+/* Ajustes para los encabezados de tarjetas */
+.card-header {
+    padding: 0.75rem 1rem;
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0,0,0,.05);
+    border-top-left-radius: 0.5rem !important;
+    border-top-right-radius: 0.5rem !important;
+}
+
+.card-header h6 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 0;
+    color: #2c3e50;
+}
+
+/* Estilos para las tablas */
+.table th {
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #6c757d;
+    border-top: none;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+/* Estilos para los badges */
+.badge {
+    font-weight: 500;
+    padding: 0.35em 0.65em;
+    font-size: 0.75em;
+}
+
+/* Ajustes para los botones de acción */
+.btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+}
+
+/* Texto atenuado */
+.text-muted {
+    --bs-text-opacity: 1;
+    color: #ffffff !important;
+}
+
+/* Estilos para las alertas */
+.alert {
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem 1.25rem;
+}
+
+.alert-warning {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.alert-warning .alert-link {
+    color: #533f03;
+}
+
+/* Ajustes para los dropdowns */
+.dropdown-menu {
+    border: none;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    padding: 0.5rem 0;
+}
+
+.dropdown-item {
+    padding: 0.5rem 1.25rem;
+    font-size: 0.85rem;
+    color: #2c3e50;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+    background-color: #f8f9fa;
+    color: #1e2a35;
+}
+
+/* Ajustes para los tooltips */
+.tooltip {
+    font-size: 0.8rem;
+}
+
+/* Ajustes para los modales */
+.modal-content {
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.modal-header {
+    border-bottom: 1px solid rgba(0,0,0,.05);
+    padding: 1rem 1.25rem;
+}
+
+.modal-footer {
+    border-top: 1px solid rgba(0,0,0,.05);
+    padding: 1rem 1.25rem;
+}
+
+/* Ajustes para los formularios en el dashboard */
+.form-control, .form-select {
+    border-radius: 0.375rem;
+    border: 1px solid #dee2e6;
+    padding: 0.375rem 0.75rem;
+    font-size: 0.875rem;
+}
+
+/* Ajustes para los botones en el dashboard */
+.btn {
+    border-radius: 0.375rem;
+    padding: 0.375rem 0.75rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+/* Ajustes para las tarjetas */
+.card {
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    margin-bottom: 1.5rem;
+}
+
+/* Ajustes para las pestañas */
+.nav-tabs {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.nav-tabs .nav-link {
+    border: none;
+    color: #6c757d;
+    font-weight: 500;
+    padding: 0.75rem 1.25rem;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-tabs .nav-link.active {
+    color: #4e73df;
+    background-color: transparent;
+    border-color: transparent;
+    border-bottom: 2px solid #4e73df;
+}
+
+/* Ajustes para los badges de estado */
+.badge-success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.badge-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.badge-warning {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+/* Ajustes para los avatares */
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e9ecef;
+    color: #6c757d;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* Ajustes para los breadcrumbs */
+.breadcrumb {
+    background-color: transparent;
+    padding: 0.5rem 0;
+    margin-bottom: 1rem;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    content: ">";
+}
+
+/* Ajustes para los tooltips personalizados */
+.tooltip-inner {
+    background-color: #2c3e50;
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+}
+
+.bs-tooltip-auto[data-popper-placement^=top] .tooltip-arrow::before, 
+.bs-tooltip-top .tooltip-arrow::before {
+    border-top-color: #2c3e50;
+}
+
+/* Ajustes para los popovers */
+.popover {
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.popover-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #e9ecef;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+/* Ajustes para los acordeones */
+.accordion-button:not(.collapsed) {
+    background-color: #f8f9fa;
+    color: #2c3e50;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    border-color: rgba(0,0,0,.125);
+}
+
+/* Ajustes para los tooltips en botones */
+.btn-tooltip {
+    position: relative;
+}
+
+.btn-tooltip .tooltip-text {
+    visibility: hidden;
+    width: 120px;
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.btn-tooltip:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1;
+    }
+    
+    .register-header p {
+        font-size: 1.05rem;
+        opacity: 0.95;
+        margin: 0;
+        color: rgba(255, 255, 255, 0.95);
+        font-weight: 400;
+        position: relative;
+        z-index: 1;
+    }
+    
+    /* Estilos para el encabezado de login */
+    .login-header {
+        background: linear-gradient(135deg, #010b34 0%, #194265 100%) !important;
+        color: white;
+        padding: 2rem 1.5rem;
+        text-align: center;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .login-header h1 {
+        font-size: 1.8rem;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+        color: white;
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        position: relative;
+        z-index: 1;
+    }
+    
+    .login-header p {
+        font-size: 1.05rem;
+        opacity: 0.95;
+        margin: 0;
+        color: rgba(255, 255, 255, 0.95);
+        font-weight: 400;
+        position: relative;
+        z-index: 1;
+    }
+    
+    /* Efecto de patrón sutil en el fondo */
+    .register-header::before,
+    .login-header::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: radial-gradient(circle at 10% 20%, rgba(255, 255, 255, 0.05) 0%, transparent 20%);
+        z-index: 0;
+    }
+    
+    /* Efecto de borde inferior con gradiente */
+    .register-header::after,
+    .login-header::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 4px;
+        background: linear-gradient(90deg, #f72585, #4cc9f0, #7209b7);
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 0.5s cubic-bezier(0.65, 0, 0.35, 1);
+    }
+    
+    .register-container:hover .register-header::after,
+    .login-container:hover .login-header::after {
+        transform: scaleX(1);
+    }
+    
+    /* Efecto de iluminación al pasar el ratón */
+    .register-header:hover,
+    .login-header:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+    
+    /* Ajustes para móviles */
+    @media (max-width: 768px) {
+        .register-header,
+        .login-header {
+            padding: 1.75rem 1rem;
+            border-radius: 8px 8px 0 0;
+        }
+        
+        .register-header h1,
+        .login-header h1 {
+            font-size: 1.6rem;
+            margin-bottom: 0.4rem;
+        }
+        
+        .register-header p,
+        .login-header p {
+            font-size: 0.95rem;
+            line-height: 1.4;
+        }
+    }
+    
+    /* Efecto de brillo sutil en los títulos */
+    .register-header h1,
+    .login-header h1 {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .register-header h1::after,
+    .login-header h1::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        bottom: -4px;
+        left: 0;
+        background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.6), transparent);
+        border-radius: 2px;
+    }
+    
+    @media (max-width: 991.98px) {
+      .card-body {
+        padding: 2rem;
+      }
+      
+      h1 {
+        font-size: 2rem;
+      }
+      
+      .lead-text {
+        font-size: 1rem;
+      }
+      
+      .feature-card {
+        margin-bottom: 1.5rem;
+      }
+    }
+    
+    @media (max-width: 767.98px) {
+      .main-container {
+        padding: 2.5rem 0;
+      }
+      
+      .card-body {
+        padding: 1.5rem;
+      }
+      
+      h1 {
+        font-size: 1.75rem;
+      }
+      
+      .btn-login {
+        width: 100%;
+        padding: 0.8rem;
+      }
+    }

@@ -176,7 +176,7 @@ class Producto_model extends CI_Model {
      */
     public function obtener_ultimos_movimientos($limit = 10) {
         $this->db->select('m.*, p.codigo_interno, r.nombre_referencia, u.nombre as usuario_nombre');
-        $this->db->from('movimientos m');
+        $this->db->from('movimientos_inventario m');
         $this->db->join('productos p', 'p.id_producto = m.id_producto', 'left');
         $this->db->join('referencias r', 'r.id_referencia = p.id_referencia', 'left');
         $this->db->join('usuarios u', 'u.id_usuario = m.creado_por', 'left');
@@ -193,7 +193,7 @@ class Producto_model extends CI_Model {
                           COALESCE(SUM(CASE WHEN m.tipo_movimiento = "salida" THEN m.cantidad ELSE 0 END), 0) as total_salidas');
         $this->db->from($this->table . ' p');
         $this->db->join('referencias r', 'r.id_referencia = p.id_referencia', 'left');
-        $this->db->join('movimientos m', 'm.id_producto = p.id_producto', 'left');
+        $this->db->join('movimientos_inventario m', 'm.id_producto = p.id_producto', 'left');
         $this->db->where('p.id_estado', 1);
         $this->db->group_by('p.id_producto');
         $this->db->order_by('total_salidas', 'DESC');
@@ -206,7 +206,7 @@ class Producto_model extends CI_Model {
      */
     public function obtener_movimientos_producto($id_producto) {
         $this->db->select('m.*, u.nombre as usuario_nombre, u.apellido as usuario_apellido');
-        $this->db->from('movimientos m');
+        $this->db->from('movimientos_inventario m');
         $this->db->join('usuarios u', 'u.id_usuario = m.creado_por', 'left');
         $this->db->where('m.id_producto', $id_producto);
         $this->db->order_by('m.fecha_movimiento', 'DESC');

@@ -1,12 +1,42 @@
 <?php
 $is_dashboard = ($this->uri->segment(2) == 'dashboard' || $this->uri->segment(2) == '');
 $sidebar_class = $is_dashboard ? 'sidebar-static' : '';
+$rol = $this->session->userdata('rol');
+
+// Definir menú según el rol
+$menu_items = [];
+
+if ($rol == 'administrador') {
+    $menu_items = [
+        ['url' => 'admin/dashboard', 'icon' => 'bi-speedometer2', 'label' => 'Dashboard', 'segment' => 'dashboard'],
+        ['url' => 'admin/productos', 'icon' => 'bi-box-seam', 'label' => 'Productos', 'segment' => 'productos'],
+        ['url' => 'admin/inventario_matriz', 'icon' => 'bi-grid-3x3', 'label' => 'Matriz (Excel)', 'segment' => 'inventario_matriz'],
+        ['url' => 'admin/referencias', 'icon' => 'bi-tag', 'label' => 'Referencias', 'segment' => 'referencias'],
+        ['url' => 'admin/categorias', 'icon' => 'bi-tags', 'label' => 'Categorías', 'segment' => 'categorias'],
+        ['url' => 'admin/movimientos', 'icon' => 'bi-arrow-left-right', 'label' => 'Movimientos', 'segment' => 'movimientos'],
+        ['url' => 'admin/usuarios', 'icon' => 'bi-people', 'label' => 'Usuarios', 'segment' => 'usuarios'],
+    ];
+} elseif ($rol == 'jefe') {
+    $menu_items = [
+        ['url' => 'jefe/dashboard', 'icon' => 'bi-speedometer2', 'label' => 'Dashboard', 'segment' => 'dashboard'],
+        ['url' => 'jefe/productos', 'icon' => 'bi-box-seam', 'label' => 'Productos', 'segment' => 'productos'],
+        ['url' => 'jefe/reportes', 'icon' => 'bi-file-earmark-bar-graph', 'label' => 'Reportes', 'segment' => 'reportes'],
+        ['url' => 'jefe/perfil', 'icon' => 'bi-person-circle', 'label' => 'Mi Perfil', 'segment' => 'perfil'],
+    ];
+} elseif ($rol == 'operario') {
+    $menu_items = [
+        ['url' => 'operario/dashboard', 'icon' => 'bi-speedometer2', 'label' => 'Dashboard', 'segment' => 'dashboard'],
+        ['url' => 'operario/tabla_principal', 'icon' => 'bi-grid-3x3', 'label' => 'Tabla Principal', 'segment' => 'tabla_principal'],
+        ['url' => 'operario/productos', 'icon' => 'bi-box-seam', 'label' => 'Productos', 'segment' => 'productos'],
+        ['url' => 'operario/movimientos', 'icon' => 'bi-arrow-left-right', 'label' => 'Movimientos', 'segment' => 'movimientos'],
+    ];
+}
 ?>
 
 <!-- Sidebar Navigation -->
 <div class="sidebar-navigation <?= $sidebar_class ?>">
     <!-- Sidebar Brand -->
-    <a class="sidebar-brand d-flex align-items-center justify-content-center text-white text-decoration-none py-3" href="<?= site_url('admin/dashboard') ?>">
+    <a class="sidebar-brand d-flex align-items-center justify-content-center text-white text-decoration-none py-3" href="<?= site_url($rol . '/dashboard') ?>">
         <div class="sidebar-brand-icon">
             <i class="bi bi-box-seam fs-2"></i>
         </div>
@@ -16,48 +46,15 @@ $sidebar_class = $is_dashboard ? 'sidebar-static' : '';
     <hr class="sidebar-divider my-0 mx-3 bg-white opacity-25">
 
     <ul class="nav flex-column mt-3">
-        <li class="nav-item">
-            <a class="nav-link <?= $this->uri->segment(2) == 'dashboard' ? 'active' : '' ?>" href="<?= site_url('admin/dashboard') ?>">
-                <i class="bi bi-speedometer2"></i>
-                <span>Dashboard</span>
-            </a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link <?= $this->uri->segment(2) == 'productos' ? 'active' : '' ?>" href="<?= site_url('admin/productos') ?>">
-                <i class="bi bi-box-seam"></i>
-                <span>Productos</span>
-            </a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link <?= $this->uri->segment(2) == 'inventario_matriz' ? 'active' : '' ?>" href="<?= site_url('admin/inventario_matriz') ?>">
-                <i class="bi bi-grid-3x3"></i>
-                <span>Matriz (Excel)</span>
-            </a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link <?= $this->uri->segment(2) == 'referencias' ? 'active' : '' ?>" href="<?= site_url('admin/referencias') ?>">
-                <i class="bi bi-tag"></i>
-                <span>Referencias</span>
-            </a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link <?= $this->uri->segment(2) == 'categorias' ? 'active' : '' ?>" href="<?= site_url('admin/categorias') ?>">
-                <i class="bi bi-tags"></i>
-                <span>Categorías</span>
-            </a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link <?= $this->uri->segment(2) == 'movimientos' ? 'active' : '' ?>" href="<?= site_url('admin/movimientos') ?>">
-                <i class="bi bi-arrow-left-right"></i>
-                <span>Movimientos</span>
-            </a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link <?= $this->uri->segment(2) == 'usuarios' ? 'active' : '' ?>" href="<?= site_url('admin/usuarios') ?>">
-                <i class="bi bi-people"></i>
-                <span>Usuarios</span>
-            </a>
-        </li>
+        <?php foreach ($menu_items as $item): ?>
+            <li class="nav-item">
+                <a class="nav-link <?= ($this->uri->segment(2) == $item['segment']) ? 'active' : '' ?>" href="<?= site_url($item['url']) ?>">
+                    <i class="bi <?= $item['icon'] ?>"></i>
+                    <span><?= $item['label'] ?></span>
+                </a>
+            </li>
+        <?php endforeach; ?>
+
         <li class="nav-item mt-auto mb-3">
             <a class="nav-link text-white" href="<?= site_url('login/logout') ?>">
                 <i class="bi bi-box-arrow-right"></i>

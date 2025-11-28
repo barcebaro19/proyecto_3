@@ -16434,3 +16434,1744 @@ DEBUG - 2025-11-27 16:56:37 --> Global POST, GET and COOKIE data sanitized
 INFO - 2025-11-27 16:56:37 --> Input Class Initialized
 INFO - 2025-11-27 16:56:37 --> Language Class Initialized
 ERROR - 2025-11-27 16:56:37 --> 404 Page Not Found: Assets/js
+INFO - 2025-11-27 17:47:30 --> Config Class Initialized
+INFO - 2025-11-27 17:47:30 --> Hooks Class Initialized
+DEBUG - 2025-11-27 17:47:30 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:47:30 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:47:30 --> URI Class Initialized
+DEBUG - 2025-11-27 17:47:30 --> No URI present. Default controller set.
+INFO - 2025-11-27 17:47:30 --> Router Class Initialized
+INFO - 2025-11-27 17:47:30 --> Output Class Initialized
+INFO - 2025-11-27 17:47:30 --> Security Class Initialized
+DEBUG - 2025-11-27 17:47:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:47:30 --> Input Class Initialized
+INFO - 2025-11-27 17:47:30 --> Language Class Initialized
+INFO - 2025-11-27 17:47:30 --> Loader Class Initialized
+INFO - 2025-11-27 17:47:30 --> Helper loaded: url_helper
+INFO - 2025-11-27 17:47:30 --> Helper loaded: form_helper
+INFO - 2025-11-27 17:47:30 --> Helper loaded: date_helper
+INFO - 2025-11-27 17:47:30 --> Helper loaded: file_helper
+INFO - 2025-11-27 17:47:30 --> Helper loaded: security_helper
+INFO - 2025-11-27 17:47:30 --> Database Driver Class Initialized
+INFO - 2025-11-27 17:47:30 --> Session: Class initialized using 'files' driver.
+INFO - 2025-11-27 17:47:30 --> Form Validation Class Initialized
+INFO - 2025-11-27 17:47:30 --> MY_Model class loaded
+INFO - 2025-11-27 17:47:30 --> Model "Login_model" initialized
+INFO - 2025-11-27 17:47:30 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\home.php
+INFO - 2025-11-27 17:47:30 --> Final output sent to browser
+DEBUG - 2025-11-27 17:47:30 --> Total execution time: 0.0959
+INFO - 2025-11-27 17:47:45 --> Config Class Initialized
+INFO - 2025-11-27 17:47:45 --> Hooks Class Initialized
+DEBUG - 2025-11-27 17:47:45 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:47:45 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:47:45 --> URI Class Initialized
+INFO - 2025-11-27 17:47:45 --> Router Class Initialized
+INFO - 2025-11-27 17:47:45 --> Output Class Initialized
+INFO - 2025-11-27 17:47:45 --> Security Class Initialized
+DEBUG - 2025-11-27 17:47:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:47:45 --> Input Class Initialized
+INFO - 2025-11-27 17:47:45 --> Language Class Initialized
+INFO - 2025-11-27 17:47:45 --> Loader Class Initialized
+INFO - 2025-11-27 17:47:45 --> Helper loaded: url_helper
+INFO - 2025-11-27 17:47:45 --> Helper loaded: form_helper
+INFO - 2025-11-27 17:47:45 --> Helper loaded: date_helper
+INFO - 2025-11-27 17:47:45 --> Helper loaded: file_helper
+INFO - 2025-11-27 17:47:45 --> Helper loaded: security_helper
+INFO - 2025-11-27 17:47:45 --> Database Driver Class Initialized
+INFO - 2025-11-27 17:47:45 --> Session: Class initialized using 'files' driver.
+INFO - 2025-11-27 17:47:45 --> Form Validation Class Initialized
+INFO - 2025-11-27 17:47:45 --> MY_Model class loaded
+INFO - 2025-11-27 17:47:45 --> Model "Login_model" initialized
+DEBUG - 2025-11-27 17:47:45 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2025-11-27 17:47:45 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-11-27 17:47:45 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:47:45 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:47:45 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\login.php
+INFO - 2025-11-27 17:47:45 --> Final output sent to browser
+DEBUG - 2025-11-27 17:47:45 --> Total execution time: 0.0674
+INFO - 2025-11-27 17:47:45 --> Config Class Initialized
+INFO - 2025-11-27 17:47:45 --> Hooks Class Initialized
+DEBUG - 2025-11-27 17:47:45 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:47:45 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:47:45 --> URI Class Initialized
+INFO - 2025-11-27 17:47:45 --> Router Class Initialized
+INFO - 2025-11-27 17:47:45 --> Output Class Initialized
+INFO - 2025-11-27 17:47:45 --> Security Class Initialized
+DEBUG - 2025-11-27 17:47:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:47:45 --> Input Class Initialized
+INFO - 2025-11-27 17:47:45 --> Language Class Initialized
+ERROR - 2025-11-27 17:47:45 --> 404 Page Not Found: Assets/css
+INFO - 2025-11-27 17:47:45 --> Config Class Initialized
+INFO - 2025-11-27 17:47:45 --> Hooks Class Initialized
+DEBUG - 2025-11-27 17:47:45 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:47:45 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:47:45 --> URI Class Initialized
+INFO - 2025-11-27 17:47:45 --> Router Class Initialized
+INFO - 2025-11-27 17:47:45 --> Output Class Initialized
+INFO - 2025-11-27 17:47:45 --> Security Class Initialized
+DEBUG - 2025-11-27 17:47:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:47:45 --> Input Class Initialized
+INFO - 2025-11-27 17:47:45 --> Language Class Initialized
+ERROR - 2025-11-27 17:47:45 --> 404 Page Not Found: Assets/js
+INFO - 2025-11-27 17:47:55 --> Config Class Initialized
+INFO - 2025-11-27 17:47:55 --> Hooks Class Initialized
+DEBUG - 2025-11-27 17:47:55 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:47:55 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:47:55 --> URI Class Initialized
+INFO - 2025-11-27 17:47:55 --> Router Class Initialized
+INFO - 2025-11-27 17:47:55 --> Output Class Initialized
+INFO - 2025-11-27 17:47:55 --> Security Class Initialized
+DEBUG - 2025-11-27 17:47:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:47:55 --> Input Class Initialized
+INFO - 2025-11-27 17:47:55 --> Language Class Initialized
+INFO - 2025-11-27 17:47:55 --> Loader Class Initialized
+INFO - 2025-11-27 17:47:55 --> Helper loaded: url_helper
+INFO - 2025-11-27 17:47:55 --> Helper loaded: form_helper
+INFO - 2025-11-27 17:47:55 --> Helper loaded: date_helper
+INFO - 2025-11-27 17:47:55 --> Helper loaded: file_helper
+INFO - 2025-11-27 17:47:55 --> Helper loaded: security_helper
+INFO - 2025-11-27 17:47:55 --> Database Driver Class Initialized
+INFO - 2025-11-27 17:47:55 --> Session: Class initialized using 'files' driver.
+INFO - 2025-11-27 17:47:55 --> Form Validation Class Initialized
+INFO - 2025-11-27 17:47:55 --> MY_Model class loaded
+INFO - 2025-11-27 17:47:55 --> Model "Login_model" initialized
+DEBUG - 2025-11-27 17:47:55 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2025-11-27 17:47:55 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-11-27 17:47:55 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:47:55 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\registro.php
+INFO - 2025-11-27 17:47:55 --> Final output sent to browser
+DEBUG - 2025-11-27 17:47:55 --> Total execution time: 0.0821
+INFO - 2025-11-27 17:48:02 --> Config Class Initialized
+INFO - 2025-11-27 17:48:02 --> Hooks Class Initialized
+DEBUG - 2025-11-27 17:48:02 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:48:02 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:48:02 --> URI Class Initialized
+INFO - 2025-11-27 17:48:02 --> Router Class Initialized
+INFO - 2025-11-27 17:48:02 --> Output Class Initialized
+INFO - 2025-11-27 17:48:02 --> Security Class Initialized
+DEBUG - 2025-11-27 17:48:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:48:02 --> Input Class Initialized
+INFO - 2025-11-27 17:48:02 --> Language Class Initialized
+INFO - 2025-11-27 17:48:02 --> Loader Class Initialized
+INFO - 2025-11-27 17:48:02 --> Helper loaded: url_helper
+INFO - 2025-11-27 17:48:02 --> Helper loaded: form_helper
+INFO - 2025-11-27 17:48:02 --> Helper loaded: date_helper
+INFO - 2025-11-27 17:48:02 --> Helper loaded: file_helper
+INFO - 2025-11-27 17:48:02 --> Helper loaded: security_helper
+INFO - 2025-11-27 17:48:02 --> Database Driver Class Initialized
+INFO - 2025-11-27 17:48:02 --> Session: Class initialized using 'files' driver.
+INFO - 2025-11-27 17:48:02 --> Form Validation Class Initialized
+INFO - 2025-11-27 17:48:02 --> MY_Model class loaded
+INFO - 2025-11-27 17:48:02 --> Model "Login_model" initialized
+DEBUG - 2025-11-27 17:48:02 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2025-11-27 17:48:02 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-11-27 17:48:02 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:48:02 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:48:02 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2025-11-27 17:48:02 --> Config Class Initialized
+INFO - 2025-11-27 17:48:02 --> Hooks Class Initialized
+DEBUG - 2025-11-27 17:48:02 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:48:02 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:48:02 --> URI Class Initialized
+INFO - 2025-11-27 17:48:02 --> Router Class Initialized
+INFO - 2025-11-27 17:48:02 --> Output Class Initialized
+INFO - 2025-11-27 17:48:02 --> Security Class Initialized
+DEBUG - 2025-11-27 17:48:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:48:02 --> Input Class Initialized
+INFO - 2025-11-27 17:48:02 --> Language Class Initialized
+INFO - 2025-11-27 17:48:02 --> Loader Class Initialized
+INFO - 2025-11-27 17:48:02 --> Helper loaded: url_helper
+INFO - 2025-11-27 17:48:02 --> Helper loaded: form_helper
+INFO - 2025-11-27 17:48:02 --> Helper loaded: date_helper
+INFO - 2025-11-27 17:48:02 --> Helper loaded: file_helper
+INFO - 2025-11-27 17:48:02 --> Helper loaded: security_helper
+INFO - 2025-11-27 17:48:02 --> Database Driver Class Initialized
+INFO - 2025-11-27 17:48:02 --> Session: Class initialized using 'files' driver.
+INFO - 2025-11-27 17:48:02 --> Form Validation Class Initialized
+INFO - 2025-11-27 17:48:02 --> MY_Model class loaded
+INFO - 2025-11-27 17:48:02 --> Model "Login_model" initialized
+DEBUG - 2025-11-27 17:48:02 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2025-11-27 17:48:02 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-11-27 17:48:02 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:48:02 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:48:02 --> Model "Rol_model" initialized
+INFO - 2025-11-27 17:48:02 --> Model "Referencia_model" initialized
+INFO - 2025-11-27 17:48:02 --> Model "Producto_model" initialized
+INFO - 2025-11-27 17:48:02 --> Model "Movimiento_model" initialized
+INFO - 2025-11-27 17:48:02 --> Model "Categoria_model" initialized
+DEBUG - 2025-11-27 17:48:02 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-11-27 17:48:03 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\admin/partials/sidebar.php
+INFO - 2025-11-27 17:48:03 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\admin/partials/topbar.php
+INFO - 2025-11-27 17:48:03 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\layouts/header.php
+INFO - 2025-11-27 17:48:03 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\admin/dashboard.php
+INFO - 2025-11-27 17:48:03 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\layouts/footer.php
+INFO - 2025-11-27 17:48:03 --> Final output sent to browser
+DEBUG - 2025-11-27 17:48:03 --> Total execution time: 0.1299
+INFO - 2025-11-27 17:48:13 --> Config Class Initialized
+INFO - 2025-11-27 17:48:13 --> Hooks Class Initialized
+DEBUG - 2025-11-27 17:48:13 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:48:13 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:48:13 --> URI Class Initialized
+INFO - 2025-11-27 17:48:13 --> Router Class Initialized
+INFO - 2025-11-27 17:48:13 --> Output Class Initialized
+INFO - 2025-11-27 17:48:13 --> Security Class Initialized
+DEBUG - 2025-11-27 17:48:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:48:13 --> Input Class Initialized
+INFO - 2025-11-27 17:48:13 --> Language Class Initialized
+INFO - 2025-11-27 17:48:13 --> Loader Class Initialized
+INFO - 2025-11-27 17:48:13 --> Helper loaded: url_helper
+INFO - 2025-11-27 17:48:13 --> Helper loaded: form_helper
+INFO - 2025-11-27 17:48:13 --> Helper loaded: date_helper
+INFO - 2025-11-27 17:48:13 --> Helper loaded: file_helper
+INFO - 2025-11-27 17:48:13 --> Helper loaded: security_helper
+INFO - 2025-11-27 17:48:13 --> Database Driver Class Initialized
+INFO - 2025-11-27 17:48:13 --> Session: Class initialized using 'files' driver.
+INFO - 2025-11-27 17:48:13 --> Form Validation Class Initialized
+INFO - 2025-11-27 17:48:13 --> MY_Model class loaded
+INFO - 2025-11-27 17:48:13 --> Model "Login_model" initialized
+DEBUG - 2025-11-27 17:48:13 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2025-11-27 17:48:13 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-11-27 17:48:13 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:48:13 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:48:13 --> Model "Rol_model" initialized
+INFO - 2025-11-27 17:48:13 --> Model "Referencia_model" initialized
+INFO - 2025-11-27 17:48:13 --> Model "Producto_model" initialized
+INFO - 2025-11-27 17:48:13 --> Model "Movimiento_model" initialized
+INFO - 2025-11-27 17:48:13 --> Model "Categoria_model" initialized
+DEBUG - 2025-11-27 17:48:13 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-11-27 17:48:13 --> Model "Movimiento_model" initialized
+INFO - 2025-11-27 17:48:13 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\admin/partials/sidebar.php
+INFO - 2025-11-27 17:48:13 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\admin/partials/topbar.php
+INFO - 2025-11-27 17:48:13 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\layouts/header.php
+INFO - 2025-11-27 17:48:13 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\admin/productos/index.php
+INFO - 2025-11-27 17:48:13 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\layouts/footer.php
+INFO - 2025-11-27 17:48:13 --> Final output sent to browser
+DEBUG - 2025-11-27 17:48:13 --> Total execution time: 0.1057
+INFO - 2025-11-27 17:48:36 --> Config Class Initialized
+INFO - 2025-11-27 17:48:36 --> Hooks Class Initialized
+DEBUG - 2025-11-27 17:48:36 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:48:36 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:48:36 --> URI Class Initialized
+INFO - 2025-11-27 17:48:36 --> Router Class Initialized
+INFO - 2025-11-27 17:48:36 --> Output Class Initialized
+INFO - 2025-11-27 17:48:36 --> Security Class Initialized
+DEBUG - 2025-11-27 17:48:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:48:36 --> Input Class Initialized
+INFO - 2025-11-27 17:48:36 --> Language Class Initialized
+INFO - 2025-11-27 17:48:36 --> Loader Class Initialized
+INFO - 2025-11-27 17:48:36 --> Helper loaded: url_helper
+INFO - 2025-11-27 17:48:36 --> Helper loaded: form_helper
+INFO - 2025-11-27 17:48:36 --> Helper loaded: date_helper
+INFO - 2025-11-27 17:48:36 --> Helper loaded: file_helper
+INFO - 2025-11-27 17:48:36 --> Helper loaded: security_helper
+INFO - 2025-11-27 17:48:36 --> Database Driver Class Initialized
+INFO - 2025-11-27 17:48:36 --> Session: Class initialized using 'files' driver.
+INFO - 2025-11-27 17:48:36 --> Form Validation Class Initialized
+INFO - 2025-11-27 17:48:36 --> MY_Model class loaded
+INFO - 2025-11-27 17:48:36 --> Model "Login_model" initialized
+DEBUG - 2025-11-27 17:48:36 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2025-11-27 17:48:36 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-11-27 17:48:36 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:48:36 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:48:36 --> Model "Rol_model" initialized
+INFO - 2025-11-27 17:48:36 --> Model "Referencia_model" initialized
+INFO - 2025-11-27 17:48:36 --> Model "Producto_model" initialized
+INFO - 2025-11-27 17:48:36 --> Model "Movimiento_model" initialized
+INFO - 2025-11-27 17:48:36 --> Model "Categoria_model" initialized
+DEBUG - 2025-11-27 17:48:36 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-11-27 17:48:36 --> Final output sent to browser
+DEBUG - 2025-11-27 17:48:36 --> Total execution time: 0.1051
+INFO - 2025-11-27 17:50:02 --> Config Class Initialized
+INFO - 2025-11-27 17:50:02 --> Hooks Class Initialized
+DEBUG - 2025-11-27 17:50:02 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:50:02 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:50:02 --> URI Class Initialized
+INFO - 2025-11-27 17:50:02 --> Router Class Initialized
+INFO - 2025-11-27 17:50:02 --> Output Class Initialized
+INFO - 2025-11-27 17:50:02 --> Security Class Initialized
+DEBUG - 2025-11-27 17:50:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:50:02 --> Input Class Initialized
+INFO - 2025-11-27 17:50:02 --> Language Class Initialized
+INFO - 2025-11-27 17:50:02 --> Loader Class Initialized
+INFO - 2025-11-27 17:50:02 --> Helper loaded: url_helper
+INFO - 2025-11-27 17:50:02 --> Helper loaded: form_helper
+INFO - 2025-11-27 17:50:02 --> Helper loaded: date_helper
+INFO - 2025-11-27 17:50:02 --> Helper loaded: file_helper
+INFO - 2025-11-27 17:50:02 --> Helper loaded: security_helper
+INFO - 2025-11-27 17:50:02 --> Database Driver Class Initialized
+INFO - 2025-11-27 17:50:02 --> Session: Class initialized using 'files' driver.
+INFO - 2025-11-27 17:50:02 --> Form Validation Class Initialized
+INFO - 2025-11-27 17:50:02 --> MY_Model class loaded
+INFO - 2025-11-27 17:50:02 --> Model "Login_model" initialized
+DEBUG - 2025-11-27 17:50:02 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2025-11-27 17:50:02 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-11-27 17:50:02 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:50:02 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:50:02 --> Model "Rol_model" initialized
+INFO - 2025-11-27 17:50:02 --> Model "Referencia_model" initialized
+INFO - 2025-11-27 17:50:02 --> Model "Producto_model" initialized
+INFO - 2025-11-27 17:50:02 --> Model "Movimiento_model" initialized
+INFO - 2025-11-27 17:50:02 --> Model "Categoria_model" initialized
+DEBUG - 2025-11-27 17:50:02 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-11-27 17:50:02 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2025-11-27 17:50:02 --> Final output sent to browser
+DEBUG - 2025-11-27 17:50:02 --> Total execution time: 0.1807
+INFO - 2025-11-27 17:50:06 --> Config Class Initialized
+INFO - 2025-11-27 17:50:06 --> Hooks Class Initialized
+DEBUG - 2025-11-27 17:50:06 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:50:06 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:50:06 --> URI Class Initialized
+INFO - 2025-11-27 17:50:06 --> Router Class Initialized
+INFO - 2025-11-27 17:50:06 --> Output Class Initialized
+INFO - 2025-11-27 17:50:06 --> Security Class Initialized
+DEBUG - 2025-11-27 17:50:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:50:06 --> Input Class Initialized
+INFO - 2025-11-27 17:50:06 --> Language Class Initialized
+INFO - 2025-11-27 17:50:06 --> Loader Class Initialized
+INFO - 2025-11-27 17:50:06 --> Helper loaded: url_helper
+INFO - 2025-11-27 17:50:06 --> Helper loaded: form_helper
+INFO - 2025-11-27 17:50:06 --> Helper loaded: date_helper
+INFO - 2025-11-27 17:50:06 --> Helper loaded: file_helper
+INFO - 2025-11-27 17:50:06 --> Helper loaded: security_helper
+INFO - 2025-11-27 17:50:06 --> Database Driver Class Initialized
+INFO - 2025-11-27 17:50:06 --> Session: Class initialized using 'files' driver.
+INFO - 2025-11-27 17:50:06 --> Form Validation Class Initialized
+INFO - 2025-11-27 17:50:06 --> MY_Model class loaded
+INFO - 2025-11-27 17:50:06 --> Model "Login_model" initialized
+DEBUG - 2025-11-27 17:50:06 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2025-11-27 17:50:06 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-11-27 17:50:06 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:50:06 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:50:06 --> Model "Rol_model" initialized
+INFO - 2025-11-27 17:50:06 --> Model "Referencia_model" initialized
+INFO - 2025-11-27 17:50:06 --> Model "Producto_model" initialized
+INFO - 2025-11-27 17:50:06 --> Model "Movimiento_model" initialized
+INFO - 2025-11-27 17:50:06 --> Model "Categoria_model" initialized
+DEBUG - 2025-11-27 17:50:06 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-11-27 17:50:06 --> Model "Movimiento_model" initialized
+INFO - 2025-11-27 17:50:06 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\admin/partials/sidebar.php
+INFO - 2025-11-27 17:50:06 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\admin/partials/topbar.php
+INFO - 2025-11-27 17:50:06 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\layouts/header.php
+INFO - 2025-11-27 17:50:06 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\admin/productos/index.php
+INFO - 2025-11-27 17:50:06 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\layouts/footer.php
+INFO - 2025-11-27 17:50:06 --> Final output sent to browser
+DEBUG - 2025-11-27 17:50:06 --> Total execution time: 0.1306
+INFO - 2025-11-27 17:50:07 --> Config Class Initialized
+INFO - 2025-11-27 17:50:07 --> Hooks Class Initialized
+DEBUG - 2025-11-27 17:50:07 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:50:07 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:50:07 --> URI Class Initialized
+INFO - 2025-11-27 17:50:07 --> Router Class Initialized
+INFO - 2025-11-27 17:50:07 --> Output Class Initialized
+INFO - 2025-11-27 17:50:07 --> Security Class Initialized
+DEBUG - 2025-11-27 17:50:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:50:07 --> Input Class Initialized
+INFO - 2025-11-27 17:50:07 --> Language Class Initialized
+ERROR - 2025-11-27 17:50:07 --> 404 Page Not Found: Iconpng/index
+INFO - 2025-11-27 17:51:20 --> Config Class Initialized
+INFO - 2025-11-27 17:51:20 --> Hooks Class Initialized
+DEBUG - 2025-11-27 17:51:20 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:51:20 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:51:20 --> URI Class Initialized
+INFO - 2025-11-27 17:51:20 --> Router Class Initialized
+INFO - 2025-11-27 17:51:20 --> Output Class Initialized
+INFO - 2025-11-27 17:51:20 --> Security Class Initialized
+DEBUG - 2025-11-27 17:51:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:51:20 --> Input Class Initialized
+INFO - 2025-11-27 17:51:20 --> Language Class Initialized
+INFO - 2025-11-27 17:51:20 --> Loader Class Initialized
+INFO - 2025-11-27 17:51:20 --> Helper loaded: url_helper
+INFO - 2025-11-27 17:51:20 --> Helper loaded: form_helper
+INFO - 2025-11-27 17:51:20 --> Helper loaded: date_helper
+INFO - 2025-11-27 17:51:20 --> Helper loaded: file_helper
+INFO - 2025-11-27 17:51:20 --> Helper loaded: security_helper
+INFO - 2025-11-27 17:51:20 --> Database Driver Class Initialized
+INFO - 2025-11-27 17:51:20 --> Session: Class initialized using 'files' driver.
+INFO - 2025-11-27 17:51:20 --> Form Validation Class Initialized
+INFO - 2025-11-27 17:51:20 --> MY_Model class loaded
+INFO - 2025-11-27 17:51:20 --> Model "Login_model" initialized
+DEBUG - 2025-11-27 17:51:20 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2025-11-27 17:51:20 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-11-27 17:51:20 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:51:20 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:51:20 --> Model "Rol_model" initialized
+INFO - 2025-11-27 17:51:20 --> Model "Referencia_model" initialized
+INFO - 2025-11-27 17:51:20 --> Model "Producto_model" initialized
+INFO - 2025-11-27 17:51:20 --> Model "Movimiento_model" initialized
+INFO - 2025-11-27 17:51:20 --> Model "Categoria_model" initialized
+DEBUG - 2025-11-27 17:51:20 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-11-27 17:51:20 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\admin/partials/sidebar.php
+INFO - 2025-11-27 17:51:20 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\admin/partials/topbar.php
+INFO - 2025-11-27 17:51:20 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\layouts/header.php
+INFO - 2025-11-27 17:51:20 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\admin/movimientos/index.php
+INFO - 2025-11-27 17:51:20 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\layouts/footer.php
+INFO - 2025-11-27 17:51:20 --> Final output sent to browser
+DEBUG - 2025-11-27 17:51:20 --> Total execution time: 0.1042
+INFO - 2025-11-27 17:51:24 --> Config Class Initialized
+INFO - 2025-11-27 17:51:24 --> Hooks Class Initialized
+DEBUG - 2025-11-27 17:51:24 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:51:24 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:51:24 --> URI Class Initialized
+INFO - 2025-11-27 17:51:24 --> Router Class Initialized
+INFO - 2025-11-27 17:51:24 --> Output Class Initialized
+INFO - 2025-11-27 17:51:24 --> Security Class Initialized
+DEBUG - 2025-11-27 17:51:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:51:24 --> Input Class Initialized
+INFO - 2025-11-27 17:51:24 --> Language Class Initialized
+INFO - 2025-11-27 17:51:24 --> Loader Class Initialized
+INFO - 2025-11-27 17:51:24 --> Helper loaded: url_helper
+INFO - 2025-11-27 17:51:24 --> Helper loaded: form_helper
+INFO - 2025-11-27 17:51:24 --> Helper loaded: date_helper
+INFO - 2025-11-27 17:51:24 --> Helper loaded: file_helper
+INFO - 2025-11-27 17:51:24 --> Helper loaded: security_helper
+INFO - 2025-11-27 17:51:24 --> Database Driver Class Initialized
+INFO - 2025-11-27 17:51:24 --> Session: Class initialized using 'files' driver.
+INFO - 2025-11-27 17:51:24 --> Form Validation Class Initialized
+INFO - 2025-11-27 17:51:24 --> MY_Model class loaded
+INFO - 2025-11-27 17:51:24 --> Model "Login_model" initialized
+DEBUG - 2025-11-27 17:51:24 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2025-11-27 17:51:24 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-11-27 17:51:24 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:51:24 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:51:24 --> Model "Rol_model" initialized
+INFO - 2025-11-27 17:51:24 --> Model "Referencia_model" initialized
+INFO - 2025-11-27 17:51:24 --> Model "Producto_model" initialized
+INFO - 2025-11-27 17:51:24 --> Model "Movimiento_model" initialized
+INFO - 2025-11-27 17:51:24 --> Model "Categoria_model" initialized
+DEBUG - 2025-11-27 17:51:24 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-11-27 17:51:24 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\admin/partials/sidebar.php
+INFO - 2025-11-27 17:51:24 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\admin/partials/topbar.php
+INFO - 2025-11-27 17:51:24 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\layouts/header.php
+INFO - 2025-11-27 17:51:24 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\admin/movimientos/index.php
+INFO - 2025-11-27 17:51:24 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\layouts/footer.php
+INFO - 2025-11-27 17:51:24 --> Final output sent to browser
+DEBUG - 2025-11-27 17:51:24 --> Total execution time: 0.1079
+INFO - 2025-11-27 17:51:28 --> Config Class Initialized
+INFO - 2025-11-27 17:51:28 --> Hooks Class Initialized
+DEBUG - 2025-11-27 17:51:28 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:51:28 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:51:28 --> URI Class Initialized
+INFO - 2025-11-27 17:51:28 --> Router Class Initialized
+INFO - 2025-11-27 17:51:28 --> Output Class Initialized
+INFO - 2025-11-27 17:51:28 --> Security Class Initialized
+DEBUG - 2025-11-27 17:51:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:51:28 --> Input Class Initialized
+INFO - 2025-11-27 17:51:28 --> Language Class Initialized
+INFO - 2025-11-27 17:51:28 --> Loader Class Initialized
+INFO - 2025-11-27 17:51:28 --> Helper loaded: url_helper
+INFO - 2025-11-27 17:51:28 --> Helper loaded: form_helper
+INFO - 2025-11-27 17:51:28 --> Helper loaded: date_helper
+INFO - 2025-11-27 17:51:28 --> Helper loaded: file_helper
+INFO - 2025-11-27 17:51:28 --> Helper loaded: security_helper
+INFO - 2025-11-27 17:51:28 --> Database Driver Class Initialized
+INFO - 2025-11-27 17:51:28 --> Session: Class initialized using 'files' driver.
+INFO - 2025-11-27 17:51:28 --> Form Validation Class Initialized
+INFO - 2025-11-27 17:51:28 --> MY_Model class loaded
+INFO - 2025-11-27 17:51:28 --> Model "Login_model" initialized
+DEBUG - 2025-11-27 17:51:28 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2025-11-27 17:51:28 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-11-27 17:51:28 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:51:28 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:51:28 --> Model "Rol_model" initialized
+INFO - 2025-11-27 17:51:28 --> Model "Referencia_model" initialized
+INFO - 2025-11-27 17:51:28 --> Model "Producto_model" initialized
+INFO - 2025-11-27 17:51:28 --> Model "Movimiento_model" initialized
+INFO - 2025-11-27 17:51:28 --> Model "Categoria_model" initialized
+DEBUG - 2025-11-27 17:51:28 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-11-27 17:51:28 --> Model "Movimiento_model" initialized
+INFO - 2025-11-27 17:51:28 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\admin/partials/sidebar.php
+INFO - 2025-11-27 17:51:28 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\admin/partials/topbar.php
+INFO - 2025-11-27 17:51:28 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\layouts/header.php
+INFO - 2025-11-27 17:51:28 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\admin/productos/index.php
+INFO - 2025-11-27 17:51:28 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\layouts/footer.php
+INFO - 2025-11-27 17:51:28 --> Final output sent to browser
+DEBUG - 2025-11-27 17:51:28 --> Total execution time: 0.1084
+INFO - 2025-11-27 17:51:57 --> Config Class Initialized
+INFO - 2025-11-27 17:51:57 --> Hooks Class Initialized
+DEBUG - 2025-11-27 17:51:57 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:51:57 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:51:57 --> URI Class Initialized
+INFO - 2025-11-27 17:51:57 --> Router Class Initialized
+INFO - 2025-11-27 17:51:57 --> Output Class Initialized
+INFO - 2025-11-27 17:51:57 --> Security Class Initialized
+DEBUG - 2025-11-27 17:51:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:51:57 --> Input Class Initialized
+INFO - 2025-11-27 17:51:57 --> Language Class Initialized
+INFO - 2025-11-27 17:51:57 --> Loader Class Initialized
+INFO - 2025-11-27 17:51:57 --> Helper loaded: url_helper
+INFO - 2025-11-27 17:51:57 --> Helper loaded: form_helper
+INFO - 2025-11-27 17:51:57 --> Helper loaded: date_helper
+INFO - 2025-11-27 17:51:57 --> Helper loaded: file_helper
+INFO - 2025-11-27 17:51:57 --> Helper loaded: security_helper
+INFO - 2025-11-27 17:51:57 --> Database Driver Class Initialized
+INFO - 2025-11-27 17:51:57 --> Session: Class initialized using 'files' driver.
+INFO - 2025-11-27 17:51:57 --> Form Validation Class Initialized
+INFO - 2025-11-27 17:51:57 --> MY_Model class loaded
+INFO - 2025-11-27 17:51:57 --> Model "Login_model" initialized
+DEBUG - 2025-11-27 17:51:57 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2025-11-27 17:51:57 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-11-27 17:51:57 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:51:57 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:51:57 --> Model "Rol_model" initialized
+INFO - 2025-11-27 17:51:57 --> Model "Referencia_model" initialized
+INFO - 2025-11-27 17:51:57 --> Model "Producto_model" initialized
+INFO - 2025-11-27 17:51:57 --> Model "Movimiento_model" initialized
+INFO - 2025-11-27 17:51:57 --> Model "Categoria_model" initialized
+DEBUG - 2025-11-27 17:51:57 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-11-27 17:51:57 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2025-11-27 17:51:57 --> Final output sent to browser
+DEBUG - 2025-11-27 17:51:57 --> Total execution time: 0.1430
+INFO - 2025-11-27 17:51:59 --> Config Class Initialized
+INFO - 2025-11-27 17:51:59 --> Hooks Class Initialized
+DEBUG - 2025-11-27 17:51:59 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:51:59 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:51:59 --> URI Class Initialized
+INFO - 2025-11-27 17:51:59 --> Router Class Initialized
+INFO - 2025-11-27 17:51:59 --> Output Class Initialized
+INFO - 2025-11-27 17:51:59 --> Security Class Initialized
+DEBUG - 2025-11-27 17:51:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:51:59 --> Input Class Initialized
+INFO - 2025-11-27 17:51:59 --> Language Class Initialized
+INFO - 2025-11-27 17:51:59 --> Loader Class Initialized
+INFO - 2025-11-27 17:51:59 --> Helper loaded: url_helper
+INFO - 2025-11-27 17:51:59 --> Helper loaded: form_helper
+INFO - 2025-11-27 17:51:59 --> Helper loaded: date_helper
+INFO - 2025-11-27 17:51:59 --> Helper loaded: file_helper
+INFO - 2025-11-27 17:51:59 --> Helper loaded: security_helper
+INFO - 2025-11-27 17:51:59 --> Database Driver Class Initialized
+INFO - 2025-11-27 17:51:59 --> Session: Class initialized using 'files' driver.
+INFO - 2025-11-27 17:51:59 --> Form Validation Class Initialized
+INFO - 2025-11-27 17:51:59 --> MY_Model class loaded
+INFO - 2025-11-27 17:51:59 --> Model "Login_model" initialized
+DEBUG - 2025-11-27 17:51:59 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2025-11-27 17:51:59 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-11-27 17:51:59 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:51:59 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:51:59 --> Model "Rol_model" initialized
+INFO - 2025-11-27 17:51:59 --> Model "Referencia_model" initialized
+INFO - 2025-11-27 17:51:59 --> Model "Producto_model" initialized
+INFO - 2025-11-27 17:51:59 --> Model "Movimiento_model" initialized
+INFO - 2025-11-27 17:51:59 --> Model "Categoria_model" initialized
+DEBUG - 2025-11-27 17:51:59 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-11-27 17:51:59 --> Model "Movimiento_model" initialized
+INFO - 2025-11-27 17:51:59 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\admin/partials/sidebar.php
+INFO - 2025-11-27 17:51:59 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\admin/partials/topbar.php
+INFO - 2025-11-27 17:51:59 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\layouts/header.php
+INFO - 2025-11-27 17:51:59 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\admin/productos/index.php
+INFO - 2025-11-27 17:51:59 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\layouts/footer.php
+INFO - 2025-11-27 17:51:59 --> Final output sent to browser
+DEBUG - 2025-11-27 17:51:59 --> Total execution time: 0.1219
+INFO - 2025-11-27 17:52:07 --> Config Class Initialized
+INFO - 2025-11-27 17:52:07 --> Hooks Class Initialized
+DEBUG - 2025-11-27 17:52:07 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:52:07 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:52:07 --> URI Class Initialized
+INFO - 2025-11-27 17:52:07 --> Router Class Initialized
+INFO - 2025-11-27 17:52:07 --> Output Class Initialized
+INFO - 2025-11-27 17:52:07 --> Security Class Initialized
+DEBUG - 2025-11-27 17:52:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:52:07 --> Input Class Initialized
+INFO - 2025-11-27 17:52:07 --> Language Class Initialized
+INFO - 2025-11-27 17:52:07 --> Loader Class Initialized
+INFO - 2025-11-27 17:52:07 --> Helper loaded: url_helper
+INFO - 2025-11-27 17:52:07 --> Helper loaded: form_helper
+INFO - 2025-11-27 17:52:07 --> Helper loaded: date_helper
+INFO - 2025-11-27 17:52:07 --> Helper loaded: file_helper
+INFO - 2025-11-27 17:52:07 --> Helper loaded: security_helper
+INFO - 2025-11-27 17:52:07 --> Database Driver Class Initialized
+INFO - 2025-11-27 17:52:07 --> Session: Class initialized using 'files' driver.
+INFO - 2025-11-27 17:52:07 --> Form Validation Class Initialized
+INFO - 2025-11-27 17:52:07 --> MY_Model class loaded
+INFO - 2025-11-27 17:52:07 --> Model "Login_model" initialized
+DEBUG - 2025-11-27 17:52:07 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2025-11-27 17:52:07 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-11-27 17:52:07 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:52:07 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:52:07 --> Model "Rol_model" initialized
+INFO - 2025-11-27 17:52:07 --> Model "Referencia_model" initialized
+INFO - 2025-11-27 17:52:07 --> Model "Producto_model" initialized
+INFO - 2025-11-27 17:52:07 --> Model "Movimiento_model" initialized
+INFO - 2025-11-27 17:52:07 --> Model "Categoria_model" initialized
+DEBUG - 2025-11-27 17:52:07 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-11-27 17:52:07 --> Model "Movimiento_model" initialized
+INFO - 2025-11-27 17:52:07 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\admin/partials/sidebar.php
+INFO - 2025-11-27 17:52:07 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\admin/partials/topbar.php
+INFO - 2025-11-27 17:52:07 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\layouts/header.php
+INFO - 2025-11-27 17:52:07 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\admin/inventario/matriz.php
+INFO - 2025-11-27 17:52:07 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\layouts/footer.php
+INFO - 2025-11-27 17:52:07 --> Final output sent to browser
+DEBUG - 2025-11-27 17:52:07 --> Total execution time: 0.0981
+INFO - 2025-11-27 17:52:10 --> Config Class Initialized
+INFO - 2025-11-27 17:52:10 --> Hooks Class Initialized
+DEBUG - 2025-11-27 17:52:10 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:52:10 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:52:10 --> URI Class Initialized
+INFO - 2025-11-27 17:52:10 --> Router Class Initialized
+INFO - 2025-11-27 17:52:10 --> Output Class Initialized
+INFO - 2025-11-27 17:52:10 --> Security Class Initialized
+DEBUG - 2025-11-27 17:52:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:52:10 --> Input Class Initialized
+INFO - 2025-11-27 17:52:10 --> Language Class Initialized
+INFO - 2025-11-27 17:52:10 --> Loader Class Initialized
+INFO - 2025-11-27 17:52:10 --> Helper loaded: url_helper
+INFO - 2025-11-27 17:52:10 --> Helper loaded: form_helper
+INFO - 2025-11-27 17:52:10 --> Helper loaded: date_helper
+INFO - 2025-11-27 17:52:10 --> Helper loaded: file_helper
+INFO - 2025-11-27 17:52:10 --> Helper loaded: security_helper
+INFO - 2025-11-27 17:52:10 --> Database Driver Class Initialized
+INFO - 2025-11-27 17:52:10 --> Session: Class initialized using 'files' driver.
+INFO - 2025-11-27 17:52:10 --> Form Validation Class Initialized
+INFO - 2025-11-27 17:52:10 --> MY_Model class loaded
+INFO - 2025-11-27 17:52:10 --> Model "Login_model" initialized
+DEBUG - 2025-11-27 17:52:10 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2025-11-27 17:52:10 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-11-27 17:52:10 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:52:10 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:52:10 --> Model "Rol_model" initialized
+INFO - 2025-11-27 17:52:10 --> Model "Referencia_model" initialized
+INFO - 2025-11-27 17:52:10 --> Model "Producto_model" initialized
+INFO - 2025-11-27 17:52:10 --> Model "Movimiento_model" initialized
+INFO - 2025-11-27 17:52:10 --> Model "Categoria_model" initialized
+DEBUG - 2025-11-27 17:52:10 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-11-27 17:52:10 --> Model "Movimiento_model" initialized
+INFO - 2025-11-27 17:52:10 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\admin/partials/sidebar.php
+INFO - 2025-11-27 17:52:10 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\admin/partials/topbar.php
+INFO - 2025-11-27 17:52:10 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\layouts/header.php
+INFO - 2025-11-27 17:52:10 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\admin/inventario/matriz.php
+INFO - 2025-11-27 17:52:10 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\layouts/footer.php
+INFO - 2025-11-27 17:52:10 --> Final output sent to browser
+DEBUG - 2025-11-27 17:52:10 --> Total execution time: 0.1490
+INFO - 2025-11-27 17:52:15 --> Config Class Initialized
+INFO - 2025-11-27 17:52:15 --> Hooks Class Initialized
+DEBUG - 2025-11-27 17:52:15 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:52:15 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:52:15 --> URI Class Initialized
+INFO - 2025-11-27 17:52:15 --> Router Class Initialized
+INFO - 2025-11-27 17:52:15 --> Output Class Initialized
+INFO - 2025-11-27 17:52:15 --> Security Class Initialized
+DEBUG - 2025-11-27 17:52:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:52:15 --> Input Class Initialized
+INFO - 2025-11-27 17:52:15 --> Language Class Initialized
+INFO - 2025-11-27 17:52:15 --> Loader Class Initialized
+INFO - 2025-11-27 17:52:15 --> Helper loaded: url_helper
+INFO - 2025-11-27 17:52:15 --> Helper loaded: form_helper
+INFO - 2025-11-27 17:52:15 --> Helper loaded: date_helper
+INFO - 2025-11-27 17:52:15 --> Helper loaded: file_helper
+INFO - 2025-11-27 17:52:15 --> Helper loaded: security_helper
+INFO - 2025-11-27 17:52:15 --> Database Driver Class Initialized
+INFO - 2025-11-27 17:52:15 --> Session: Class initialized using 'files' driver.
+INFO - 2025-11-27 17:52:15 --> Form Validation Class Initialized
+INFO - 2025-11-27 17:52:15 --> MY_Model class loaded
+INFO - 2025-11-27 17:52:15 --> Model "Login_model" initialized
+DEBUG - 2025-11-27 17:52:15 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2025-11-27 17:52:15 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-11-27 17:52:15 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:52:15 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:52:15 --> Model "Rol_model" initialized
+INFO - 2025-11-27 17:52:15 --> Model "Referencia_model" initialized
+INFO - 2025-11-27 17:52:15 --> Model "Producto_model" initialized
+INFO - 2025-11-27 17:52:15 --> Model "Movimiento_model" initialized
+INFO - 2025-11-27 17:52:15 --> Model "Categoria_model" initialized
+DEBUG - 2025-11-27 17:52:15 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-11-27 17:52:15 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\admin/partials/sidebar.php
+INFO - 2025-11-27 17:52:15 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\admin/partials/topbar.php
+INFO - 2025-11-27 17:52:15 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\layouts/header.php
+INFO - 2025-11-27 17:52:15 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\admin/referencias/index.php
+INFO - 2025-11-27 17:52:15 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\layouts/footer.php
+INFO - 2025-11-27 17:52:15 --> Final output sent to browser
+DEBUG - 2025-11-27 17:52:15 --> Total execution time: 0.1315
+INFO - 2025-11-27 17:52:23 --> Config Class Initialized
+INFO - 2025-11-27 17:52:23 --> Hooks Class Initialized
+DEBUG - 2025-11-27 17:52:23 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:52:23 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:52:23 --> URI Class Initialized
+INFO - 2025-11-27 17:52:23 --> Router Class Initialized
+INFO - 2025-11-27 17:52:23 --> Output Class Initialized
+INFO - 2025-11-27 17:52:23 --> Security Class Initialized
+DEBUG - 2025-11-27 17:52:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:52:23 --> Input Class Initialized
+INFO - 2025-11-27 17:52:23 --> Language Class Initialized
+INFO - 2025-11-27 17:52:23 --> Loader Class Initialized
+INFO - 2025-11-27 17:52:23 --> Helper loaded: url_helper
+INFO - 2025-11-27 17:52:23 --> Helper loaded: form_helper
+INFO - 2025-11-27 17:52:23 --> Helper loaded: date_helper
+INFO - 2025-11-27 17:52:23 --> Helper loaded: file_helper
+INFO - 2025-11-27 17:52:23 --> Helper loaded: security_helper
+INFO - 2025-11-27 17:52:23 --> Database Driver Class Initialized
+INFO - 2025-11-27 17:52:23 --> Session: Class initialized using 'files' driver.
+INFO - 2025-11-27 17:52:23 --> Form Validation Class Initialized
+INFO - 2025-11-27 17:52:23 --> MY_Model class loaded
+INFO - 2025-11-27 17:52:23 --> Model "Login_model" initialized
+DEBUG - 2025-11-27 17:52:23 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2025-11-27 17:52:23 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-11-27 17:52:23 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:52:23 --> Model "Categoria_model" initialized
+INFO - 2025-11-27 17:52:23 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\admin/partials/sidebar.php
+INFO - 2025-11-27 17:52:23 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\admin/partials/topbar.php
+INFO - 2025-11-27 17:52:23 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\layouts/header.php
+INFO - 2025-11-27 17:52:23 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\admin/categorias/index.php
+INFO - 2025-11-27 17:52:23 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\layouts/footer.php
+INFO - 2025-11-27 17:52:23 --> Final output sent to browser
+DEBUG - 2025-11-27 17:52:23 --> Total execution time: 0.0857
+INFO - 2025-11-27 17:52:29 --> Config Class Initialized
+INFO - 2025-11-27 17:52:29 --> Hooks Class Initialized
+DEBUG - 2025-11-27 17:52:29 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:52:29 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:52:29 --> URI Class Initialized
+INFO - 2025-11-27 17:52:29 --> Router Class Initialized
+INFO - 2025-11-27 17:52:29 --> Output Class Initialized
+INFO - 2025-11-27 17:52:29 --> Security Class Initialized
+DEBUG - 2025-11-27 17:52:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:52:29 --> Input Class Initialized
+INFO - 2025-11-27 17:52:29 --> Language Class Initialized
+INFO - 2025-11-27 17:52:29 --> Loader Class Initialized
+INFO - 2025-11-27 17:52:29 --> Helper loaded: url_helper
+INFO - 2025-11-27 17:52:29 --> Helper loaded: form_helper
+INFO - 2025-11-27 17:52:29 --> Helper loaded: date_helper
+INFO - 2025-11-27 17:52:29 --> Helper loaded: file_helper
+INFO - 2025-11-27 17:52:29 --> Helper loaded: security_helper
+INFO - 2025-11-27 17:52:29 --> Database Driver Class Initialized
+INFO - 2025-11-27 17:52:29 --> Session: Class initialized using 'files' driver.
+INFO - 2025-11-27 17:52:29 --> Form Validation Class Initialized
+INFO - 2025-11-27 17:52:29 --> MY_Model class loaded
+INFO - 2025-11-27 17:52:29 --> Model "Login_model" initialized
+DEBUG - 2025-11-27 17:52:29 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2025-11-27 17:52:29 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-11-27 17:52:29 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:52:29 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:52:29 --> Model "Rol_model" initialized
+INFO - 2025-11-27 17:52:29 --> Model "Referencia_model" initialized
+INFO - 2025-11-27 17:52:29 --> Model "Producto_model" initialized
+INFO - 2025-11-27 17:52:29 --> Model "Movimiento_model" initialized
+INFO - 2025-11-27 17:52:29 --> Model "Categoria_model" initialized
+DEBUG - 2025-11-27 17:52:29 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-11-27 17:52:29 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\admin/partials/sidebar.php
+INFO - 2025-11-27 17:52:29 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\admin/partials/topbar.php
+INFO - 2025-11-27 17:52:29 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\layouts/header.php
+INFO - 2025-11-27 17:52:29 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\admin/movimientos/index.php
+INFO - 2025-11-27 17:52:29 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\layouts/footer.php
+INFO - 2025-11-27 17:52:29 --> Final output sent to browser
+DEBUG - 2025-11-27 17:52:29 --> Total execution time: 0.1075
+INFO - 2025-11-27 17:52:33 --> Config Class Initialized
+INFO - 2025-11-27 17:52:33 --> Hooks Class Initialized
+DEBUG - 2025-11-27 17:52:33 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:52:33 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:52:33 --> URI Class Initialized
+INFO - 2025-11-27 17:52:33 --> Router Class Initialized
+INFO - 2025-11-27 17:52:33 --> Output Class Initialized
+INFO - 2025-11-27 17:52:33 --> Security Class Initialized
+DEBUG - 2025-11-27 17:52:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:52:33 --> Input Class Initialized
+INFO - 2025-11-27 17:52:33 --> Language Class Initialized
+INFO - 2025-11-27 17:52:33 --> Loader Class Initialized
+INFO - 2025-11-27 17:52:33 --> Helper loaded: url_helper
+INFO - 2025-11-27 17:52:33 --> Helper loaded: form_helper
+INFO - 2025-11-27 17:52:33 --> Helper loaded: date_helper
+INFO - 2025-11-27 17:52:33 --> Helper loaded: file_helper
+INFO - 2025-11-27 17:52:33 --> Helper loaded: security_helper
+INFO - 2025-11-27 17:52:33 --> Database Driver Class Initialized
+INFO - 2025-11-27 17:52:33 --> Session: Class initialized using 'files' driver.
+INFO - 2025-11-27 17:52:33 --> Form Validation Class Initialized
+INFO - 2025-11-27 17:52:33 --> MY_Model class loaded
+INFO - 2025-11-27 17:52:33 --> Model "Login_model" initialized
+DEBUG - 2025-11-27 17:52:33 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2025-11-27 17:52:33 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-11-27 17:52:33 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:52:33 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:52:33 --> Model "Rol_model" initialized
+INFO - 2025-11-27 17:52:33 --> Model "Referencia_model" initialized
+INFO - 2025-11-27 17:52:33 --> Model "Producto_model" initialized
+INFO - 2025-11-27 17:52:33 --> Model "Movimiento_model" initialized
+INFO - 2025-11-27 17:52:33 --> Model "Categoria_model" initialized
+DEBUG - 2025-11-27 17:52:33 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-11-27 17:52:33 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\admin/partials/sidebar.php
+INFO - 2025-11-27 17:52:33 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\admin/partials/topbar.php
+INFO - 2025-11-27 17:52:33 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\layouts/header.php
+INFO - 2025-11-27 17:52:33 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\admin/usuarios/index.php
+INFO - 2025-11-27 17:52:33 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\layouts/footer.php
+INFO - 2025-11-27 17:52:33 --> Final output sent to browser
+DEBUG - 2025-11-27 17:52:33 --> Total execution time: 0.1103
+INFO - 2025-11-27 17:52:40 --> Config Class Initialized
+INFO - 2025-11-27 17:52:40 --> Hooks Class Initialized
+DEBUG - 2025-11-27 17:52:40 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:52:40 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:52:40 --> URI Class Initialized
+INFO - 2025-11-27 17:52:40 --> Router Class Initialized
+INFO - 2025-11-27 17:52:40 --> Output Class Initialized
+INFO - 2025-11-27 17:52:40 --> Security Class Initialized
+DEBUG - 2025-11-27 17:52:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:52:40 --> Input Class Initialized
+INFO - 2025-11-27 17:52:40 --> Language Class Initialized
+INFO - 2025-11-27 17:52:40 --> Loader Class Initialized
+INFO - 2025-11-27 17:52:40 --> Helper loaded: url_helper
+INFO - 2025-11-27 17:52:40 --> Helper loaded: form_helper
+INFO - 2025-11-27 17:52:40 --> Helper loaded: date_helper
+INFO - 2025-11-27 17:52:40 --> Helper loaded: file_helper
+INFO - 2025-11-27 17:52:40 --> Helper loaded: security_helper
+INFO - 2025-11-27 17:52:40 --> Database Driver Class Initialized
+INFO - 2025-11-27 17:52:40 --> Session: Class initialized using 'files' driver.
+INFO - 2025-11-27 17:52:40 --> Form Validation Class Initialized
+INFO - 2025-11-27 17:52:40 --> MY_Model class loaded
+INFO - 2025-11-27 17:52:40 --> Model "Login_model" initialized
+DEBUG - 2025-11-27 17:52:40 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2025-11-27 17:52:40 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-11-27 17:52:40 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:52:40 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:52:40 --> Model "Rol_model" initialized
+INFO - 2025-11-27 17:52:40 --> Model "Referencia_model" initialized
+INFO - 2025-11-27 17:52:40 --> Model "Producto_model" initialized
+INFO - 2025-11-27 17:52:40 --> Model "Movimiento_model" initialized
+INFO - 2025-11-27 17:52:40 --> Model "Categoria_model" initialized
+DEBUG - 2025-11-27 17:52:40 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-11-27 17:52:40 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\admin/partials/sidebar.php
+INFO - 2025-11-27 17:52:40 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\admin/partials/topbar.php
+INFO - 2025-11-27 17:52:40 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\layouts/header.php
+INFO - 2025-11-27 17:52:40 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\admin/movimientos/index.php
+INFO - 2025-11-27 17:52:40 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\layouts/footer.php
+INFO - 2025-11-27 17:52:40 --> Final output sent to browser
+DEBUG - 2025-11-27 17:52:40 --> Total execution time: 0.1079
+INFO - 2025-11-27 17:52:44 --> Config Class Initialized
+INFO - 2025-11-27 17:52:44 --> Hooks Class Initialized
+DEBUG - 2025-11-27 17:52:44 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:52:44 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:52:44 --> URI Class Initialized
+INFO - 2025-11-27 17:52:44 --> Router Class Initialized
+INFO - 2025-11-27 17:52:44 --> Output Class Initialized
+INFO - 2025-11-27 17:52:44 --> Security Class Initialized
+DEBUG - 2025-11-27 17:52:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:52:44 --> Input Class Initialized
+INFO - 2025-11-27 17:52:44 --> Language Class Initialized
+INFO - 2025-11-27 17:52:44 --> Loader Class Initialized
+INFO - 2025-11-27 17:52:44 --> Helper loaded: url_helper
+INFO - 2025-11-27 17:52:44 --> Helper loaded: form_helper
+INFO - 2025-11-27 17:52:44 --> Helper loaded: date_helper
+INFO - 2025-11-27 17:52:44 --> Helper loaded: file_helper
+INFO - 2025-11-27 17:52:44 --> Helper loaded: security_helper
+INFO - 2025-11-27 17:52:44 --> Database Driver Class Initialized
+INFO - 2025-11-27 17:52:44 --> Session: Class initialized using 'files' driver.
+INFO - 2025-11-27 17:52:44 --> Form Validation Class Initialized
+INFO - 2025-11-27 17:52:44 --> MY_Model class loaded
+INFO - 2025-11-27 17:52:44 --> Model "Login_model" initialized
+DEBUG - 2025-11-27 17:52:44 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2025-11-27 17:52:44 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-11-27 17:52:44 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:52:44 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:52:44 --> Model "Rol_model" initialized
+INFO - 2025-11-27 17:52:44 --> Model "Referencia_model" initialized
+INFO - 2025-11-27 17:52:44 --> Model "Producto_model" initialized
+INFO - 2025-11-27 17:52:44 --> Model "Movimiento_model" initialized
+INFO - 2025-11-27 17:52:44 --> Model "Categoria_model" initialized
+DEBUG - 2025-11-27 17:52:44 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-11-27 17:52:44 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\admin/partials/sidebar.php
+INFO - 2025-11-27 17:52:44 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\admin/partials/topbar.php
+INFO - 2025-11-27 17:52:44 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\layouts/header.php
+INFO - 2025-11-27 17:52:44 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\admin/usuarios/index.php
+INFO - 2025-11-27 17:52:44 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\layouts/footer.php
+INFO - 2025-11-27 17:52:44 --> Final output sent to browser
+DEBUG - 2025-11-27 17:52:44 --> Total execution time: 0.1154
+INFO - 2025-11-27 17:52:47 --> Config Class Initialized
+INFO - 2025-11-27 17:52:47 --> Hooks Class Initialized
+DEBUG - 2025-11-27 17:52:47 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:52:47 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:52:47 --> URI Class Initialized
+INFO - 2025-11-27 17:52:47 --> Router Class Initialized
+INFO - 2025-11-27 17:52:47 --> Output Class Initialized
+INFO - 2025-11-27 17:52:47 --> Security Class Initialized
+DEBUG - 2025-11-27 17:52:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:52:47 --> Input Class Initialized
+INFO - 2025-11-27 17:52:47 --> Language Class Initialized
+INFO - 2025-11-27 17:52:47 --> Loader Class Initialized
+INFO - 2025-11-27 17:52:47 --> Helper loaded: url_helper
+INFO - 2025-11-27 17:52:47 --> Helper loaded: form_helper
+INFO - 2025-11-27 17:52:47 --> Helper loaded: date_helper
+INFO - 2025-11-27 17:52:47 --> Helper loaded: file_helper
+INFO - 2025-11-27 17:52:47 --> Helper loaded: security_helper
+INFO - 2025-11-27 17:52:47 --> Database Driver Class Initialized
+INFO - 2025-11-27 17:52:47 --> Session: Class initialized using 'files' driver.
+INFO - 2025-11-27 17:52:47 --> Form Validation Class Initialized
+INFO - 2025-11-27 17:52:47 --> MY_Model class loaded
+INFO - 2025-11-27 17:52:47 --> Model "Login_model" initialized
+DEBUG - 2025-11-27 17:52:47 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2025-11-27 17:52:47 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-11-27 17:52:47 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:52:47 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:52:47 --> Model "Rol_model" initialized
+INFO - 2025-11-27 17:52:47 --> Model "Referencia_model" initialized
+INFO - 2025-11-27 17:52:47 --> Model "Producto_model" initialized
+INFO - 2025-11-27 17:52:47 --> Model "Movimiento_model" initialized
+INFO - 2025-11-27 17:52:47 --> Model "Categoria_model" initialized
+DEBUG - 2025-11-27 17:52:47 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-11-27 17:52:47 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\admin/partials/sidebar.php
+INFO - 2025-11-27 17:52:47 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\admin/partials/topbar.php
+INFO - 2025-11-27 17:52:47 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\layouts/header.php
+INFO - 2025-11-27 17:52:47 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\admin/movimientos/index.php
+INFO - 2025-11-27 17:52:47 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\layouts/footer.php
+INFO - 2025-11-27 17:52:47 --> Final output sent to browser
+DEBUG - 2025-11-27 17:52:47 --> Total execution time: 0.0922
+INFO - 2025-11-27 17:53:00 --> Config Class Initialized
+INFO - 2025-11-27 17:53:00 --> Hooks Class Initialized
+DEBUG - 2025-11-27 17:53:00 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:53:00 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:53:00 --> URI Class Initialized
+INFO - 2025-11-27 17:53:00 --> Router Class Initialized
+INFO - 2025-11-27 17:53:00 --> Output Class Initialized
+INFO - 2025-11-27 17:53:00 --> Security Class Initialized
+DEBUG - 2025-11-27 17:53:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:53:00 --> Input Class Initialized
+INFO - 2025-11-27 17:53:00 --> Language Class Initialized
+INFO - 2025-11-27 17:53:00 --> Loader Class Initialized
+INFO - 2025-11-27 17:53:00 --> Helper loaded: url_helper
+INFO - 2025-11-27 17:53:00 --> Helper loaded: form_helper
+INFO - 2025-11-27 17:53:00 --> Helper loaded: date_helper
+INFO - 2025-11-27 17:53:00 --> Helper loaded: file_helper
+INFO - 2025-11-27 17:53:00 --> Helper loaded: security_helper
+INFO - 2025-11-27 17:53:00 --> Database Driver Class Initialized
+INFO - 2025-11-27 17:53:00 --> Session: Class initialized using 'files' driver.
+INFO - 2025-11-27 17:53:00 --> Form Validation Class Initialized
+INFO - 2025-11-27 17:53:00 --> MY_Model class loaded
+INFO - 2025-11-27 17:53:00 --> Model "Login_model" initialized
+DEBUG - 2025-11-27 17:53:00 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2025-11-27 17:53:00 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-11-27 17:53:00 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:53:00 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:53:00 --> Model "Rol_model" initialized
+INFO - 2025-11-27 17:53:00 --> Model "Referencia_model" initialized
+INFO - 2025-11-27 17:53:00 --> Model "Producto_model" initialized
+INFO - 2025-11-27 17:53:00 --> Model "Movimiento_model" initialized
+INFO - 2025-11-27 17:53:00 --> Model "Categoria_model" initialized
+DEBUG - 2025-11-27 17:53:00 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-11-27 17:53:00 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\admin/partials/sidebar.php
+INFO - 2025-11-27 17:53:00 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\admin/partials/topbar.php
+INFO - 2025-11-27 17:53:00 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\layouts/header.php
+INFO - 2025-11-27 17:53:00 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\admin/dashboard.php
+INFO - 2025-11-27 17:53:00 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\layouts/footer.php
+INFO - 2025-11-27 17:53:00 --> Final output sent to browser
+DEBUG - 2025-11-27 17:53:00 --> Total execution time: 0.1162
+INFO - 2025-11-27 17:53:06 --> Config Class Initialized
+INFO - 2025-11-27 17:53:06 --> Hooks Class Initialized
+DEBUG - 2025-11-27 17:53:06 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:53:06 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:53:06 --> URI Class Initialized
+INFO - 2025-11-27 17:53:06 --> Router Class Initialized
+INFO - 2025-11-27 17:53:06 --> Output Class Initialized
+INFO - 2025-11-27 17:53:06 --> Security Class Initialized
+DEBUG - 2025-11-27 17:53:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:53:06 --> Input Class Initialized
+INFO - 2025-11-27 17:53:06 --> Language Class Initialized
+INFO - 2025-11-27 17:53:06 --> Loader Class Initialized
+INFO - 2025-11-27 17:53:06 --> Helper loaded: url_helper
+INFO - 2025-11-27 17:53:06 --> Helper loaded: form_helper
+INFO - 2025-11-27 17:53:06 --> Helper loaded: date_helper
+INFO - 2025-11-27 17:53:06 --> Helper loaded: file_helper
+INFO - 2025-11-27 17:53:06 --> Helper loaded: security_helper
+INFO - 2025-11-27 17:53:06 --> Database Driver Class Initialized
+INFO - 2025-11-27 17:53:06 --> Session: Class initialized using 'files' driver.
+INFO - 2025-11-27 17:53:06 --> Form Validation Class Initialized
+INFO - 2025-11-27 17:53:06 --> MY_Model class loaded
+INFO - 2025-11-27 17:53:06 --> Model "Login_model" initialized
+DEBUG - 2025-11-27 17:53:06 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2025-11-27 17:53:06 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-11-27 17:53:06 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:53:06 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:53:06 --> Config Class Initialized
+INFO - 2025-11-27 17:53:06 --> Hooks Class Initialized
+DEBUG - 2025-11-27 17:53:06 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:53:06 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:53:06 --> URI Class Initialized
+INFO - 2025-11-27 17:53:06 --> Router Class Initialized
+INFO - 2025-11-27 17:53:06 --> Output Class Initialized
+INFO - 2025-11-27 17:53:06 --> Security Class Initialized
+DEBUG - 2025-11-27 17:53:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:53:06 --> Input Class Initialized
+INFO - 2025-11-27 17:53:06 --> Language Class Initialized
+INFO - 2025-11-27 17:53:06 --> Loader Class Initialized
+INFO - 2025-11-27 17:53:06 --> Helper loaded: url_helper
+INFO - 2025-11-27 17:53:06 --> Helper loaded: form_helper
+INFO - 2025-11-27 17:53:06 --> Helper loaded: date_helper
+INFO - 2025-11-27 17:53:06 --> Helper loaded: file_helper
+INFO - 2025-11-27 17:53:06 --> Helper loaded: security_helper
+INFO - 2025-11-27 17:53:06 --> Database Driver Class Initialized
+INFO - 2025-11-27 17:53:06 --> Session: Class initialized using 'files' driver.
+INFO - 2025-11-27 17:53:06 --> Form Validation Class Initialized
+INFO - 2025-11-27 17:53:06 --> MY_Model class loaded
+INFO - 2025-11-27 17:53:06 --> Model "Login_model" initialized
+DEBUG - 2025-11-27 17:53:06 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2025-11-27 17:53:06 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-11-27 17:53:06 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:53:06 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:53:06 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\login.php
+INFO - 2025-11-27 17:53:06 --> Final output sent to browser
+DEBUG - 2025-11-27 17:53:06 --> Total execution time: 0.0658
+INFO - 2025-11-27 17:53:06 --> Config Class Initialized
+INFO - 2025-11-27 17:53:06 --> Hooks Class Initialized
+DEBUG - 2025-11-27 17:53:06 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:53:06 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:53:06 --> URI Class Initialized
+INFO - 2025-11-27 17:53:06 --> Router Class Initialized
+INFO - 2025-11-27 17:53:06 --> Output Class Initialized
+INFO - 2025-11-27 17:53:06 --> Security Class Initialized
+DEBUG - 2025-11-27 17:53:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:53:06 --> Input Class Initialized
+INFO - 2025-11-27 17:53:06 --> Language Class Initialized
+ERROR - 2025-11-27 17:53:06 --> 404 Page Not Found: Assets/css
+INFO - 2025-11-27 17:53:06 --> Config Class Initialized
+INFO - 2025-11-27 17:53:06 --> Hooks Class Initialized
+DEBUG - 2025-11-27 17:53:06 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:53:06 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:53:06 --> URI Class Initialized
+INFO - 2025-11-27 17:53:06 --> Router Class Initialized
+INFO - 2025-11-27 17:53:06 --> Output Class Initialized
+INFO - 2025-11-27 17:53:06 --> Security Class Initialized
+DEBUG - 2025-11-27 17:53:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:53:06 --> Input Class Initialized
+INFO - 2025-11-27 17:53:06 --> Language Class Initialized
+ERROR - 2025-11-27 17:53:06 --> 404 Page Not Found: Assets/js
+INFO - 2025-11-27 17:53:16 --> Config Class Initialized
+INFO - 2025-11-27 17:53:16 --> Hooks Class Initialized
+DEBUG - 2025-11-27 17:53:16 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:53:16 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:53:16 --> URI Class Initialized
+INFO - 2025-11-27 17:53:16 --> Router Class Initialized
+INFO - 2025-11-27 17:53:16 --> Output Class Initialized
+INFO - 2025-11-27 17:53:16 --> Security Class Initialized
+DEBUG - 2025-11-27 17:53:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:53:16 --> Input Class Initialized
+INFO - 2025-11-27 17:53:16 --> Language Class Initialized
+INFO - 2025-11-27 17:53:16 --> Loader Class Initialized
+INFO - 2025-11-27 17:53:16 --> Helper loaded: url_helper
+INFO - 2025-11-27 17:53:16 --> Helper loaded: form_helper
+INFO - 2025-11-27 17:53:16 --> Helper loaded: date_helper
+INFO - 2025-11-27 17:53:16 --> Helper loaded: file_helper
+INFO - 2025-11-27 17:53:16 --> Helper loaded: security_helper
+INFO - 2025-11-27 17:53:17 --> Database Driver Class Initialized
+INFO - 2025-11-27 17:53:17 --> Session: Class initialized using 'files' driver.
+INFO - 2025-11-27 17:53:17 --> Form Validation Class Initialized
+INFO - 2025-11-27 17:53:17 --> MY_Model class loaded
+INFO - 2025-11-27 17:53:17 --> Model "Login_model" initialized
+DEBUG - 2025-11-27 17:53:17 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2025-11-27 17:53:17 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-11-27 17:53:17 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:53:17 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:53:17 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2025-11-27 17:53:17 --> Config Class Initialized
+INFO - 2025-11-27 17:53:17 --> Hooks Class Initialized
+DEBUG - 2025-11-27 17:53:17 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:53:17 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:53:17 --> URI Class Initialized
+INFO - 2025-11-27 17:53:17 --> Router Class Initialized
+INFO - 2025-11-27 17:53:17 --> Output Class Initialized
+INFO - 2025-11-27 17:53:17 --> Security Class Initialized
+DEBUG - 2025-11-27 17:53:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:53:17 --> Input Class Initialized
+INFO - 2025-11-27 17:53:17 --> Language Class Initialized
+INFO - 2025-11-27 17:53:17 --> Loader Class Initialized
+INFO - 2025-11-27 17:53:17 --> Helper loaded: url_helper
+INFO - 2025-11-27 17:53:17 --> Helper loaded: form_helper
+INFO - 2025-11-27 17:53:17 --> Helper loaded: date_helper
+INFO - 2025-11-27 17:53:17 --> Helper loaded: file_helper
+INFO - 2025-11-27 17:53:17 --> Helper loaded: security_helper
+INFO - 2025-11-27 17:53:17 --> Database Driver Class Initialized
+INFO - 2025-11-27 17:53:17 --> Session: Class initialized using 'files' driver.
+INFO - 2025-11-27 17:53:17 --> Form Validation Class Initialized
+INFO - 2025-11-27 17:53:17 --> MY_Model class loaded
+INFO - 2025-11-27 17:53:17 --> Model "Login_model" initialized
+INFO - 2025-11-27 17:53:17 --> Model "Producto_model" initialized
+INFO - 2025-11-27 17:53:17 --> Model "Categoria_model" initialized
+INFO - 2025-11-27 17:53:17 --> Model "Movimiento_model" initialized
+DEBUG - 2025-11-27 17:53:17 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2025-11-27 17:53:17 --> Form_validation class already loaded. Second attempt ignored.
+ERROR - 2025-11-27 17:53:17 --> Jefe Controller: Index iniciado
+INFO - 2025-11-27 17:53:17 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\jefe/header.php
+INFO - 2025-11-27 17:53:17 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\jefe/dashboard.php
+INFO - 2025-11-27 17:53:17 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\jefe/footer.php
+INFO - 2025-11-27 17:53:17 --> Final output sent to browser
+DEBUG - 2025-11-27 17:53:17 --> Total execution time: 0.0801
+INFO - 2025-11-27 17:53:17 --> Config Class Initialized
+INFO - 2025-11-27 17:53:17 --> Hooks Class Initialized
+DEBUG - 2025-11-27 17:53:17 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:53:17 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:53:17 --> URI Class Initialized
+INFO - 2025-11-27 17:53:17 --> Router Class Initialized
+INFO - 2025-11-27 17:53:17 --> Output Class Initialized
+INFO - 2025-11-27 17:53:17 --> Security Class Initialized
+DEBUG - 2025-11-27 17:53:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:53:17 --> Input Class Initialized
+INFO - 2025-11-27 17:53:17 --> Language Class Initialized
+ERROR - 2025-11-27 17:53:17 --> 404 Page Not Found: Assets/datatables
+INFO - 2025-11-27 17:53:17 --> Config Class Initialized
+INFO - 2025-11-27 17:53:17 --> Hooks Class Initialized
+INFO - 2025-11-27 17:53:17 --> Config Class Initialized
+INFO - 2025-11-27 17:53:17 --> Hooks Class Initialized
+DEBUG - 2025-11-27 17:53:17 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:53:17 --> Utf8 Class Initialized
+DEBUG - 2025-11-27 17:53:17 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:53:17 --> URI Class Initialized
+INFO - 2025-11-27 17:53:17 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:53:17 --> Config Class Initialized
+INFO - 2025-11-27 17:53:17 --> URI Class Initialized
+INFO - 2025-11-27 17:53:17 --> Hooks Class Initialized
+INFO - 2025-11-27 17:53:17 --> Router Class Initialized
+INFO - 2025-11-27 17:53:17 --> Router Class Initialized
+DEBUG - 2025-11-27 17:53:17 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:53:17 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:53:17 --> Output Class Initialized
+INFO - 2025-11-27 17:53:17 --> Config Class Initialized
+INFO - 2025-11-27 17:53:17 --> Config Class Initialized
+INFO - 2025-11-27 17:53:17 --> Hooks Class Initialized
+INFO - 2025-11-27 17:53:17 --> Hooks Class Initialized
+INFO - 2025-11-27 17:53:17 --> Security Class Initialized
+DEBUG - 2025-11-27 17:53:17 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2025-11-27 17:53:17 --> UTF-8 Support Enabled
+DEBUG - 2025-11-27 17:53:17 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:53:17 --> Input Class Initialized
+INFO - 2025-11-27 17:53:17 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:53:17 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:53:17 --> Language Class Initialized
+INFO - 2025-11-27 17:53:17 --> URI Class Initialized
+INFO - 2025-11-27 17:53:17 --> URI Class Initialized
+INFO - 2025-11-27 17:53:17 --> Router Class Initialized
+INFO - 2025-11-27 17:53:17 --> Router Class Initialized
+ERROR - 2025-11-27 17:53:17 --> 404 Page Not Found: Assets/js
+INFO - 2025-11-27 17:53:17 --> Output Class Initialized
+INFO - 2025-11-27 17:53:17 --> Output Class Initialized
+INFO - 2025-11-27 17:53:17 --> Security Class Initialized
+INFO - 2025-11-27 17:53:17 --> Config Class Initialized
+INFO - 2025-11-27 17:53:17 --> Hooks Class Initialized
+DEBUG - 2025-11-27 17:53:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:53:17 --> Input Class Initialized
+INFO - 2025-11-27 17:53:17 --> Output Class Initialized
+INFO - 2025-11-27 17:53:17 --> Language Class Initialized
+DEBUG - 2025-11-27 17:53:17 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:53:17 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:53:17 --> Security Class Initialized
+ERROR - 2025-11-27 17:53:17 --> 404 Page Not Found: Assets/datatables
+INFO - 2025-11-27 17:53:17 --> URI Class Initialized
+DEBUG - 2025-11-27 17:53:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:53:17 --> Input Class Initialized
+INFO - 2025-11-27 17:53:17 --> Language Class Initialized
+INFO - 2025-11-27 17:53:17 --> Router Class Initialized
+INFO - 2025-11-27 17:53:17 --> Output Class Initialized
+ERROR - 2025-11-27 17:53:17 --> 404 Page Not Found: Assets/datatables
+INFO - 2025-11-27 17:53:17 --> Security Class Initialized
+INFO - 2025-11-27 17:53:17 --> Security Class Initialized
+INFO - 2025-11-27 17:53:17 --> URI Class Initialized
+DEBUG - 2025-11-27 17:53:17 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2025-11-27 17:53:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:53:17 --> Input Class Initialized
+INFO - 2025-11-27 17:53:17 --> Input Class Initialized
+INFO - 2025-11-27 17:53:17 --> Router Class Initialized
+INFO - 2025-11-27 17:53:17 --> Language Class Initialized
+INFO - 2025-11-27 17:53:17 --> Output Class Initialized
+INFO - 2025-11-27 17:53:17 --> Language Class Initialized
+INFO - 2025-11-27 17:53:17 --> Security Class Initialized
+DEBUG - 2025-11-27 17:53:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:53:17 --> Input Class Initialized
+INFO - 2025-11-27 17:53:17 --> Language Class Initialized
+ERROR - 2025-11-27 17:53:17 --> 404 Page Not Found: Assets/datatables
+ERROR - 2025-11-27 17:53:17 --> 404 Page Not Found: Assets/datatables
+ERROR - 2025-11-27 17:53:17 --> 404 Page Not Found: Assets/datatables
+INFO - 2025-11-27 17:53:17 --> Config Class Initialized
+INFO - 2025-11-27 17:53:17 --> Hooks Class Initialized
+DEBUG - 2025-11-27 17:53:17 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:53:17 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:53:17 --> URI Class Initialized
+INFO - 2025-11-27 17:53:17 --> Router Class Initialized
+INFO - 2025-11-27 17:53:17 --> Output Class Initialized
+INFO - 2025-11-27 17:53:17 --> Security Class Initialized
+DEBUG - 2025-11-27 17:53:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:53:17 --> Input Class Initialized
+INFO - 2025-11-27 17:53:17 --> Language Class Initialized
+ERROR - 2025-11-27 17:53:17 --> 404 Page Not Found: Assets/datatables
+INFO - 2025-11-27 17:53:24 --> Config Class Initialized
+INFO - 2025-11-27 17:53:24 --> Hooks Class Initialized
+DEBUG - 2025-11-27 17:53:24 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:53:24 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:53:24 --> URI Class Initialized
+INFO - 2025-11-27 17:53:24 --> Router Class Initialized
+INFO - 2025-11-27 17:53:24 --> Output Class Initialized
+INFO - 2025-11-27 17:53:24 --> Security Class Initialized
+DEBUG - 2025-11-27 17:53:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:53:24 --> Input Class Initialized
+INFO - 2025-11-27 17:53:24 --> Language Class Initialized
+INFO - 2025-11-27 17:53:24 --> Loader Class Initialized
+INFO - 2025-11-27 17:53:24 --> Helper loaded: url_helper
+INFO - 2025-11-27 17:53:24 --> Helper loaded: form_helper
+INFO - 2025-11-27 17:53:24 --> Helper loaded: date_helper
+INFO - 2025-11-27 17:53:24 --> Helper loaded: file_helper
+INFO - 2025-11-27 17:53:24 --> Helper loaded: security_helper
+INFO - 2025-11-27 17:53:24 --> Database Driver Class Initialized
+INFO - 2025-11-27 17:53:24 --> Session: Class initialized using 'files' driver.
+INFO - 2025-11-27 17:53:24 --> Form Validation Class Initialized
+INFO - 2025-11-27 17:53:24 --> MY_Model class loaded
+INFO - 2025-11-27 17:53:24 --> Model "Login_model" initialized
+INFO - 2025-11-27 17:53:24 --> Model "Producto_model" initialized
+INFO - 2025-11-27 17:53:24 --> Model "Categoria_model" initialized
+INFO - 2025-11-27 17:53:24 --> Model "Movimiento_model" initialized
+DEBUG - 2025-11-27 17:53:24 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2025-11-27 17:53:24 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-11-27 17:53:24 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\jefe/header.php
+INFO - 2025-11-27 17:53:24 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\jefe/productos/index.php
+INFO - 2025-11-27 17:53:24 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\jefe/footer.php
+INFO - 2025-11-27 17:53:24 --> Final output sent to browser
+DEBUG - 2025-11-27 17:53:24 --> Total execution time: 0.1339
+INFO - 2025-11-27 17:53:24 --> Config Class Initialized
+INFO - 2025-11-27 17:53:24 --> Hooks Class Initialized
+DEBUG - 2025-11-27 17:53:24 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:53:24 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:53:24 --> URI Class Initialized
+INFO - 2025-11-27 17:53:24 --> Router Class Initialized
+INFO - 2025-11-27 17:53:24 --> Output Class Initialized
+INFO - 2025-11-27 17:53:24 --> Security Class Initialized
+DEBUG - 2025-11-27 17:53:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:53:24 --> Input Class Initialized
+INFO - 2025-11-27 17:53:24 --> Language Class Initialized
+ERROR - 2025-11-27 17:53:24 --> 404 Page Not Found: Assets/datatables
+INFO - 2025-11-27 17:53:24 --> Config Class Initialized
+INFO - 2025-11-27 17:53:24 --> Hooks Class Initialized
+INFO - 2025-11-27 17:53:24 --> Config Class Initialized
+INFO - 2025-11-27 17:53:24 --> Hooks Class Initialized
+INFO - 2025-11-27 17:53:24 --> Config Class Initialized
+DEBUG - 2025-11-27 17:53:24 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:53:24 --> Hooks Class Initialized
+INFO - 2025-11-27 17:53:24 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:53:24 --> Config Class Initialized
+INFO - 2025-11-27 17:53:24 --> Hooks Class Initialized
+INFO - 2025-11-27 17:53:24 --> URI Class Initialized
+DEBUG - 2025-11-27 17:53:24 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:53:24 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:53:24 --> Router Class Initialized
+INFO - 2025-11-27 17:53:24 --> URI Class Initialized
+INFO - 2025-11-27 17:53:24 --> Output Class Initialized
+INFO - 2025-11-27 17:53:24 --> Config Class Initialized
+INFO - 2025-11-27 17:53:24 --> Hooks Class Initialized
+INFO - 2025-11-27 17:53:24 --> Router Class Initialized
+INFO - 2025-11-27 17:53:24 --> Security Class Initialized
+DEBUG - 2025-11-27 17:53:24 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:53:24 --> Utf8 Class Initialized
+DEBUG - 2025-11-27 17:53:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:53:24 --> Output Class Initialized
+INFO - 2025-11-27 17:53:24 --> Input Class Initialized
+INFO - 2025-11-27 17:53:24 --> URI Class Initialized
+DEBUG - 2025-11-27 17:53:24 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:53:24 --> Language Class Initialized
+INFO - 2025-11-27 17:53:24 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:53:24 --> Security Class Initialized
+INFO - 2025-11-27 17:53:24 --> Router Class Initialized
+INFO - 2025-11-27 17:53:24 --> URI Class Initialized
+DEBUG - 2025-11-27 17:53:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:53:24 --> Input Class Initialized
+INFO - 2025-11-27 17:53:24 --> Output Class Initialized
+INFO - 2025-11-27 17:53:24 --> Router Class Initialized
+INFO - 2025-11-27 17:53:24 --> Language Class Initialized
+INFO - 2025-11-27 17:53:24 --> Security Class Initialized
+INFO - 2025-11-27 17:53:24 --> Output Class Initialized
+ERROR - 2025-11-27 17:53:24 --> 404 Page Not Found: Assets/datatables
+ERROR - 2025-11-27 17:53:24 --> 404 Page Not Found: Assets/datatables
+DEBUG - 2025-11-27 17:53:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:53:24 --> Input Class Initialized
+INFO - 2025-11-27 17:53:24 --> Security Class Initialized
+INFO - 2025-11-27 17:53:24 --> Language Class Initialized
+INFO - 2025-11-27 17:53:24 --> Config Class Initialized
+INFO - 2025-11-27 17:53:24 --> Hooks Class Initialized
+DEBUG - 2025-11-27 17:53:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:53:24 --> Input Class Initialized
+ERROR - 2025-11-27 17:53:24 --> 404 Page Not Found: Assets/js
+INFO - 2025-11-27 17:53:24 --> Language Class Initialized
+DEBUG - 2025-11-27 17:53:24 --> UTF-8 Support Enabled
+ERROR - 2025-11-27 17:53:24 --> 404 Page Not Found: Assets/datatables
+INFO - 2025-11-27 17:53:24 --> Utf8 Class Initialized
+DEBUG - 2025-11-27 17:53:24 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:53:24 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:53:24 --> URI Class Initialized
+INFO - 2025-11-27 17:53:24 --> URI Class Initialized
+INFO - 2025-11-27 17:53:24 --> Router Class Initialized
+INFO - 2025-11-27 17:53:24 --> Router Class Initialized
+INFO - 2025-11-27 17:53:24 --> Output Class Initialized
+INFO - 2025-11-27 17:53:24 --> Output Class Initialized
+INFO - 2025-11-27 17:53:24 --> Security Class Initialized
+INFO - 2025-11-27 17:53:24 --> Security Class Initialized
+DEBUG - 2025-11-27 17:53:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:53:24 --> Input Class Initialized
+DEBUG - 2025-11-27 17:53:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:53:24 --> Input Class Initialized
+INFO - 2025-11-27 17:53:24 --> Language Class Initialized
+INFO - 2025-11-27 17:53:24 --> Language Class Initialized
+INFO - 2025-11-27 17:53:24 --> Config Class Initialized
+INFO - 2025-11-27 17:53:24 --> Hooks Class Initialized
+ERROR - 2025-11-27 17:53:24 --> 404 Page Not Found: Assets/datatables
+DEBUG - 2025-11-27 17:53:24 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:53:24 --> Utf8 Class Initialized
+ERROR - 2025-11-27 17:53:24 --> 404 Page Not Found: Assets/datatables
+INFO - 2025-11-27 17:53:24 --> URI Class Initialized
+INFO - 2025-11-27 17:53:24 --> Router Class Initialized
+INFO - 2025-11-27 17:53:24 --> Output Class Initialized
+INFO - 2025-11-27 17:53:24 --> Security Class Initialized
+DEBUG - 2025-11-27 17:53:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:53:24 --> Input Class Initialized
+INFO - 2025-11-27 17:53:24 --> Language Class Initialized
+ERROR - 2025-11-27 17:53:24 --> 404 Page Not Found: Assets/datatables
+INFO - 2025-11-27 17:53:27 --> Config Class Initialized
+INFO - 2025-11-27 17:53:27 --> Hooks Class Initialized
+DEBUG - 2025-11-27 17:53:27 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:53:27 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:53:27 --> URI Class Initialized
+INFO - 2025-11-27 17:53:27 --> Router Class Initialized
+INFO - 2025-11-27 17:53:27 --> Output Class Initialized
+INFO - 2025-11-27 17:53:27 --> Security Class Initialized
+DEBUG - 2025-11-27 17:53:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:53:27 --> Input Class Initialized
+INFO - 2025-11-27 17:53:27 --> Language Class Initialized
+INFO - 2025-11-27 17:53:27 --> Loader Class Initialized
+INFO - 2025-11-27 17:53:27 --> Helper loaded: url_helper
+INFO - 2025-11-27 17:53:27 --> Helper loaded: form_helper
+INFO - 2025-11-27 17:53:27 --> Helper loaded: date_helper
+INFO - 2025-11-27 17:53:27 --> Helper loaded: file_helper
+INFO - 2025-11-27 17:53:27 --> Helper loaded: security_helper
+INFO - 2025-11-27 17:53:27 --> Database Driver Class Initialized
+INFO - 2025-11-27 17:53:27 --> Session: Class initialized using 'files' driver.
+INFO - 2025-11-27 17:53:27 --> Form Validation Class Initialized
+INFO - 2025-11-27 17:53:27 --> MY_Model class loaded
+INFO - 2025-11-27 17:53:27 --> Model "Login_model" initialized
+INFO - 2025-11-27 17:53:27 --> Model "Producto_model" initialized
+INFO - 2025-11-27 17:53:27 --> Model "Categoria_model" initialized
+INFO - 2025-11-27 17:53:27 --> Model "Movimiento_model" initialized
+DEBUG - 2025-11-27 17:53:27 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2025-11-27 17:53:27 --> Form_validation class already loaded. Second attempt ignored.
+ERROR - 2025-11-27 17:53:27 --> Query error: Unknown column 'm.tipo_movimiento' in 'field list' - Invalid query: SELECT `p`.*, `r`.`nombre_referencia`, `r`.`codigo_referencia`, COALESCE(SUM(CASE WHEN m.tipo_movimiento = "salida" THEN m.cantidad ELSE 0 END), 0) as total_salidas
+FROM `productos` `p`
+LEFT JOIN `referencias` `r` ON `r`.`id_referencia` = `p`.`id_referencia`
+LEFT JOIN `movimientos` `m` ON `m`.`id_producto` = `p`.`id_producto`
+WHERE `p`.`id_estado` = 1
+GROUP BY `p`.`id_producto`
+ORDER BY `total_salidas` DESC
+ LIMIT 10
+INFO - 2025-11-27 17:53:27 --> Language file loaded: language/english/db_lang.php
+INFO - 2025-11-27 17:54:49 --> Config Class Initialized
+INFO - 2025-11-27 17:54:49 --> Hooks Class Initialized
+DEBUG - 2025-11-27 17:54:49 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:54:49 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:54:49 --> URI Class Initialized
+INFO - 2025-11-27 17:54:49 --> Router Class Initialized
+INFO - 2025-11-27 17:54:49 --> Output Class Initialized
+INFO - 2025-11-27 17:54:49 --> Security Class Initialized
+DEBUG - 2025-11-27 17:54:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:54:49 --> Input Class Initialized
+INFO - 2025-11-27 17:54:49 --> Language Class Initialized
+INFO - 2025-11-27 17:54:49 --> Loader Class Initialized
+INFO - 2025-11-27 17:54:49 --> Helper loaded: url_helper
+INFO - 2025-11-27 17:54:49 --> Helper loaded: form_helper
+INFO - 2025-11-27 17:54:49 --> Helper loaded: date_helper
+INFO - 2025-11-27 17:54:49 --> Helper loaded: file_helper
+INFO - 2025-11-27 17:54:49 --> Helper loaded: security_helper
+INFO - 2025-11-27 17:54:49 --> Database Driver Class Initialized
+INFO - 2025-11-27 17:54:49 --> Session: Class initialized using 'files' driver.
+INFO - 2025-11-27 17:54:49 --> Form Validation Class Initialized
+INFO - 2025-11-27 17:54:49 --> MY_Model class loaded
+INFO - 2025-11-27 17:54:49 --> Model "Login_model" initialized
+DEBUG - 2025-11-27 17:54:49 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2025-11-27 17:54:49 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-11-27 17:54:49 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:54:49 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:54:49 --> Config Class Initialized
+INFO - 2025-11-27 17:54:49 --> Hooks Class Initialized
+DEBUG - 2025-11-27 17:54:49 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:54:49 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:54:49 --> URI Class Initialized
+INFO - 2025-11-27 17:54:49 --> Router Class Initialized
+INFO - 2025-11-27 17:54:49 --> Output Class Initialized
+INFO - 2025-11-27 17:54:49 --> Security Class Initialized
+DEBUG - 2025-11-27 17:54:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:54:49 --> Input Class Initialized
+INFO - 2025-11-27 17:54:49 --> Language Class Initialized
+INFO - 2025-11-27 17:54:49 --> Loader Class Initialized
+INFO - 2025-11-27 17:54:49 --> Helper loaded: url_helper
+INFO - 2025-11-27 17:54:49 --> Helper loaded: form_helper
+INFO - 2025-11-27 17:54:49 --> Helper loaded: date_helper
+INFO - 2025-11-27 17:54:49 --> Helper loaded: file_helper
+INFO - 2025-11-27 17:54:49 --> Helper loaded: security_helper
+INFO - 2025-11-27 17:54:49 --> Database Driver Class Initialized
+INFO - 2025-11-27 17:54:49 --> Session: Class initialized using 'files' driver.
+INFO - 2025-11-27 17:54:49 --> Form Validation Class Initialized
+INFO - 2025-11-27 17:54:49 --> MY_Model class loaded
+INFO - 2025-11-27 17:54:49 --> Model "Login_model" initialized
+DEBUG - 2025-11-27 17:54:49 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2025-11-27 17:54:49 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-11-27 17:54:49 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:54:49 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:54:49 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\login.php
+INFO - 2025-11-27 17:54:49 --> Final output sent to browser
+DEBUG - 2025-11-27 17:54:49 --> Total execution time: 0.0850
+INFO - 2025-11-27 17:54:49 --> Config Class Initialized
+INFO - 2025-11-27 17:54:49 --> Config Class Initialized
+INFO - 2025-11-27 17:54:49 --> Hooks Class Initialized
+INFO - 2025-11-27 17:54:49 --> Hooks Class Initialized
+DEBUG - 2025-11-27 17:54:49 --> UTF-8 Support Enabled
+DEBUG - 2025-11-27 17:54:49 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:54:49 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:54:49 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:54:49 --> URI Class Initialized
+INFO - 2025-11-27 17:54:49 --> URI Class Initialized
+INFO - 2025-11-27 17:54:49 --> Router Class Initialized
+INFO - 2025-11-27 17:54:49 --> Router Class Initialized
+INFO - 2025-11-27 17:54:49 --> Output Class Initialized
+INFO - 2025-11-27 17:54:49 --> Output Class Initialized
+INFO - 2025-11-27 17:54:49 --> Security Class Initialized
+INFO - 2025-11-27 17:54:49 --> Security Class Initialized
+DEBUG - 2025-11-27 17:54:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2025-11-27 17:54:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:54:49 --> Input Class Initialized
+INFO - 2025-11-27 17:54:49 --> Language Class Initialized
+INFO - 2025-11-27 17:54:49 --> Input Class Initialized
+INFO - 2025-11-27 17:54:49 --> Language Class Initialized
+ERROR - 2025-11-27 17:54:49 --> 404 Page Not Found: Assets/css
+ERROR - 2025-11-27 17:54:49 --> 404 Page Not Found: Assets/js
+INFO - 2025-11-27 17:55:01 --> Config Class Initialized
+INFO - 2025-11-27 17:55:01 --> Hooks Class Initialized
+DEBUG - 2025-11-27 17:55:01 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:55:01 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:55:01 --> URI Class Initialized
+DEBUG - 2025-11-27 17:55:01 --> No URI present. Default controller set.
+INFO - 2025-11-27 17:55:01 --> Router Class Initialized
+INFO - 2025-11-27 17:55:01 --> Output Class Initialized
+INFO - 2025-11-27 17:55:01 --> Security Class Initialized
+DEBUG - 2025-11-27 17:55:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:55:01 --> Input Class Initialized
+INFO - 2025-11-27 17:55:01 --> Language Class Initialized
+INFO - 2025-11-27 17:55:01 --> Loader Class Initialized
+INFO - 2025-11-27 17:55:01 --> Helper loaded: url_helper
+INFO - 2025-11-27 17:55:01 --> Helper loaded: form_helper
+INFO - 2025-11-27 17:55:01 --> Helper loaded: date_helper
+INFO - 2025-11-27 17:55:01 --> Helper loaded: file_helper
+INFO - 2025-11-27 17:55:01 --> Helper loaded: security_helper
+INFO - 2025-11-27 17:55:01 --> Database Driver Class Initialized
+INFO - 2025-11-27 17:55:01 --> Session: Class initialized using 'files' driver.
+INFO - 2025-11-27 17:55:01 --> Form Validation Class Initialized
+INFO - 2025-11-27 17:55:01 --> MY_Model class loaded
+INFO - 2025-11-27 17:55:01 --> Model "Login_model" initialized
+INFO - 2025-11-27 17:55:01 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\home.php
+INFO - 2025-11-27 17:55:01 --> Final output sent to browser
+DEBUG - 2025-11-27 17:55:01 --> Total execution time: 0.1403
+INFO - 2025-11-27 17:55:20 --> Config Class Initialized
+INFO - 2025-11-27 17:55:20 --> Hooks Class Initialized
+DEBUG - 2025-11-27 17:55:20 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:55:20 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:55:20 --> URI Class Initialized
+INFO - 2025-11-27 17:55:20 --> Router Class Initialized
+INFO - 2025-11-27 17:55:20 --> Output Class Initialized
+INFO - 2025-11-27 17:55:20 --> Security Class Initialized
+DEBUG - 2025-11-27 17:55:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:55:20 --> Input Class Initialized
+INFO - 2025-11-27 17:55:20 --> Language Class Initialized
+INFO - 2025-11-27 17:55:20 --> Loader Class Initialized
+INFO - 2025-11-27 17:55:20 --> Helper loaded: url_helper
+INFO - 2025-11-27 17:55:20 --> Helper loaded: form_helper
+INFO - 2025-11-27 17:55:20 --> Helper loaded: date_helper
+INFO - 2025-11-27 17:55:20 --> Helper loaded: file_helper
+INFO - 2025-11-27 17:55:20 --> Helper loaded: security_helper
+INFO - 2025-11-27 17:55:20 --> Database Driver Class Initialized
+INFO - 2025-11-27 17:55:20 --> Session: Class initialized using 'files' driver.
+INFO - 2025-11-27 17:55:20 --> Form Validation Class Initialized
+INFO - 2025-11-27 17:55:20 --> MY_Model class loaded
+INFO - 2025-11-27 17:55:20 --> Model "Login_model" initialized
+DEBUG - 2025-11-27 17:55:20 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2025-11-27 17:55:20 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-11-27 17:55:20 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:55:20 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:55:20 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\login.php
+INFO - 2025-11-27 17:55:20 --> Final output sent to browser
+DEBUG - 2025-11-27 17:55:20 --> Total execution time: 0.1027
+INFO - 2025-11-27 17:55:20 --> Config Class Initialized
+INFO - 2025-11-27 17:55:20 --> Hooks Class Initialized
+DEBUG - 2025-11-27 17:55:20 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:55:20 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:55:20 --> URI Class Initialized
+INFO - 2025-11-27 17:55:20 --> Router Class Initialized
+INFO - 2025-11-27 17:55:20 --> Output Class Initialized
+INFO - 2025-11-27 17:55:20 --> Security Class Initialized
+DEBUG - 2025-11-27 17:55:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:55:20 --> Input Class Initialized
+INFO - 2025-11-27 17:55:20 --> Language Class Initialized
+ERROR - 2025-11-27 17:55:20 --> 404 Page Not Found: Assets/css
+INFO - 2025-11-27 17:55:20 --> Config Class Initialized
+INFO - 2025-11-27 17:55:20 --> Hooks Class Initialized
+DEBUG - 2025-11-27 17:55:20 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:55:20 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:55:20 --> URI Class Initialized
+INFO - 2025-11-27 17:55:20 --> Router Class Initialized
+INFO - 2025-11-27 17:55:20 --> Output Class Initialized
+INFO - 2025-11-27 17:55:20 --> Security Class Initialized
+DEBUG - 2025-11-27 17:55:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:55:20 --> Input Class Initialized
+INFO - 2025-11-27 17:55:20 --> Language Class Initialized
+INFO - 2025-11-27 17:55:20 --> Config Class Initialized
+INFO - 2025-11-27 17:55:20 --> Hooks Class Initialized
+ERROR - 2025-11-27 17:55:20 --> 404 Page Not Found: Assets/css
+DEBUG - 2025-11-27 17:55:20 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:55:20 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:55:20 --> URI Class Initialized
+INFO - 2025-11-27 17:55:20 --> Router Class Initialized
+INFO - 2025-11-27 17:55:20 --> Output Class Initialized
+INFO - 2025-11-27 17:55:20 --> Security Class Initialized
+DEBUG - 2025-11-27 17:55:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:55:20 --> Input Class Initialized
+INFO - 2025-11-27 17:55:20 --> Language Class Initialized
+ERROR - 2025-11-27 17:55:20 --> 404 Page Not Found: Assets/js
+INFO - 2025-11-27 17:55:31 --> Config Class Initialized
+INFO - 2025-11-27 17:55:31 --> Hooks Class Initialized
+DEBUG - 2025-11-27 17:55:31 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:55:31 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:55:31 --> URI Class Initialized
+INFO - 2025-11-27 17:55:31 --> Router Class Initialized
+INFO - 2025-11-27 17:55:31 --> Output Class Initialized
+INFO - 2025-11-27 17:55:31 --> Security Class Initialized
+DEBUG - 2025-11-27 17:55:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:55:31 --> Input Class Initialized
+INFO - 2025-11-27 17:55:31 --> Language Class Initialized
+INFO - 2025-11-27 17:55:31 --> Loader Class Initialized
+INFO - 2025-11-27 17:55:31 --> Helper loaded: url_helper
+INFO - 2025-11-27 17:55:31 --> Helper loaded: form_helper
+INFO - 2025-11-27 17:55:31 --> Helper loaded: date_helper
+INFO - 2025-11-27 17:55:31 --> Helper loaded: file_helper
+INFO - 2025-11-27 17:55:31 --> Helper loaded: security_helper
+INFO - 2025-11-27 17:55:31 --> Database Driver Class Initialized
+INFO - 2025-11-27 17:55:31 --> Session: Class initialized using 'files' driver.
+INFO - 2025-11-27 17:55:31 --> Form Validation Class Initialized
+INFO - 2025-11-27 17:55:31 --> MY_Model class loaded
+INFO - 2025-11-27 17:55:31 --> Model "Login_model" initialized
+DEBUG - 2025-11-27 17:55:31 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2025-11-27 17:55:31 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-11-27 17:55:31 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:55:31 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:55:31 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2025-11-27 17:55:31 --> Config Class Initialized
+INFO - 2025-11-27 17:55:31 --> Hooks Class Initialized
+DEBUG - 2025-11-27 17:55:31 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:55:31 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:55:31 --> URI Class Initialized
+INFO - 2025-11-27 17:55:31 --> Router Class Initialized
+INFO - 2025-11-27 17:55:31 --> Output Class Initialized
+INFO - 2025-11-27 17:55:31 --> Security Class Initialized
+DEBUG - 2025-11-27 17:55:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:55:31 --> Input Class Initialized
+INFO - 2025-11-27 17:55:31 --> Language Class Initialized
+INFO - 2025-11-27 17:55:31 --> Loader Class Initialized
+INFO - 2025-11-27 17:55:31 --> Helper loaded: url_helper
+INFO - 2025-11-27 17:55:31 --> Helper loaded: form_helper
+INFO - 2025-11-27 17:55:31 --> Helper loaded: date_helper
+INFO - 2025-11-27 17:55:31 --> Helper loaded: file_helper
+INFO - 2025-11-27 17:55:31 --> Helper loaded: security_helper
+INFO - 2025-11-27 17:55:31 --> Database Driver Class Initialized
+INFO - 2025-11-27 17:55:31 --> Session: Class initialized using 'files' driver.
+INFO - 2025-11-27 17:55:31 --> Form Validation Class Initialized
+INFO - 2025-11-27 17:55:31 --> MY_Model class loaded
+INFO - 2025-11-27 17:55:31 --> Model "Login_model" initialized
+INFO - 2025-11-27 17:55:31 --> Model "Producto_model" initialized
+INFO - 2025-11-27 17:55:31 --> Model "Categoria_model" initialized
+INFO - 2025-11-27 17:55:31 --> Model "Movimiento_model" initialized
+DEBUG - 2025-11-27 17:55:31 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2025-11-27 17:55:31 --> Form_validation class already loaded. Second attempt ignored.
+ERROR - 2025-11-27 17:55:31 --> Jefe Controller: Index iniciado
+INFO - 2025-11-27 17:55:31 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\jefe/header.php
+INFO - 2025-11-27 17:55:31 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\jefe/dashboard.php
+INFO - 2025-11-27 17:55:31 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\jefe/footer.php
+INFO - 2025-11-27 17:55:31 --> Final output sent to browser
+DEBUG - 2025-11-27 17:55:31 --> Total execution time: 0.0857
+INFO - 2025-11-27 17:55:32 --> Config Class Initialized
+INFO - 2025-11-27 17:55:32 --> Hooks Class Initialized
+INFO - 2025-11-27 17:55:32 --> Config Class Initialized
+DEBUG - 2025-11-27 17:55:32 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:55:32 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:55:32 --> Hooks Class Initialized
+INFO - 2025-11-27 17:55:32 --> URI Class Initialized
+INFO - 2025-11-27 17:55:32 --> Router Class Initialized
+INFO - 2025-11-27 17:55:32 --> Output Class Initialized
+DEBUG - 2025-11-27 17:55:32 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:55:32 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:55:32 --> Security Class Initialized
+INFO - 2025-11-27 17:55:32 --> URI Class Initialized
+DEBUG - 2025-11-27 17:55:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:55:32 --> Input Class Initialized
+INFO - 2025-11-27 17:55:32 --> Language Class Initialized
+INFO - 2025-11-27 17:55:32 --> Router Class Initialized
+INFO - 2025-11-27 17:55:32 --> Output Class Initialized
+INFO - 2025-11-27 17:55:32 --> Security Class Initialized
+DEBUG - 2025-11-27 17:55:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:55:32 --> Input Class Initialized
+INFO - 2025-11-27 17:55:32 --> Language Class Initialized
+ERROR - 2025-11-27 17:55:32 --> 404 Page Not Found: Assets/datatables
+ERROR - 2025-11-27 17:55:32 --> 404 Page Not Found: Assets/datatables
+INFO - 2025-11-27 17:55:32 --> Config Class Initialized
+INFO - 2025-11-27 17:55:32 --> Hooks Class Initialized
+INFO - 2025-11-27 17:55:32 --> Config Class Initialized
+INFO - 2025-11-27 17:55:32 --> Hooks Class Initialized
+DEBUG - 2025-11-27 17:55:32 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:55:32 --> Utf8 Class Initialized
+DEBUG - 2025-11-27 17:55:32 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:55:32 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:55:32 --> URI Class Initialized
+INFO - 2025-11-27 17:55:32 --> URI Class Initialized
+INFO - 2025-11-27 17:55:32 --> Router Class Initialized
+INFO - 2025-11-27 17:55:32 --> Router Class Initialized
+INFO - 2025-11-27 17:55:32 --> Output Class Initialized
+INFO - 2025-11-27 17:55:32 --> Output Class Initialized
+INFO - 2025-11-27 17:55:32 --> Security Class Initialized
+INFO - 2025-11-27 17:55:32 --> Security Class Initialized
+DEBUG - 2025-11-27 17:55:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:55:32 --> Input Class Initialized
+DEBUG - 2025-11-27 17:55:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:55:32 --> Input Class Initialized
+INFO - 2025-11-27 17:55:32 --> Language Class Initialized
+INFO - 2025-11-27 17:55:32 --> Language Class Initialized
+ERROR - 2025-11-27 17:55:32 --> 404 Page Not Found: Assets/datatables
+ERROR - 2025-11-27 17:55:32 --> 404 Page Not Found: Assets/js
+INFO - 2025-11-27 17:55:32 --> Config Class Initialized
+INFO - 2025-11-27 17:55:32 --> Hooks Class Initialized
+DEBUG - 2025-11-27 17:55:32 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:55:32 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:55:32 --> URI Class Initialized
+INFO - 2025-11-27 17:55:32 --> Router Class Initialized
+INFO - 2025-11-27 17:55:32 --> Output Class Initialized
+INFO - 2025-11-27 17:55:32 --> Security Class Initialized
+DEBUG - 2025-11-27 17:55:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:55:32 --> Input Class Initialized
+INFO - 2025-11-27 17:55:32 --> Language Class Initialized
+ERROR - 2025-11-27 17:55:32 --> 404 Page Not Found: Assets/datatables
+INFO - 2025-11-27 17:55:32 --> Config Class Initialized
+INFO - 2025-11-27 17:55:32 --> Hooks Class Initialized
+DEBUG - 2025-11-27 17:55:32 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:55:32 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:55:32 --> URI Class Initialized
+INFO - 2025-11-27 17:55:32 --> Router Class Initialized
+INFO - 2025-11-27 17:55:32 --> Output Class Initialized
+INFO - 2025-11-27 17:55:32 --> Security Class Initialized
+DEBUG - 2025-11-27 17:55:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:55:32 --> Input Class Initialized
+INFO - 2025-11-27 17:55:32 --> Language Class Initialized
+ERROR - 2025-11-27 17:55:32 --> 404 Page Not Found: Assets/datatables
+INFO - 2025-11-27 17:55:32 --> Config Class Initialized
+INFO - 2025-11-27 17:55:32 --> Hooks Class Initialized
+DEBUG - 2025-11-27 17:55:32 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:55:32 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:55:32 --> Config Class Initialized
+INFO - 2025-11-27 17:55:32 --> Hooks Class Initialized
+DEBUG - 2025-11-27 17:55:32 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:55:32 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:55:32 --> URI Class Initialized
+INFO - 2025-11-27 17:55:32 --> Router Class Initialized
+INFO - 2025-11-27 17:55:32 --> Config Class Initialized
+INFO - 2025-11-27 17:55:32 --> URI Class Initialized
+INFO - 2025-11-27 17:55:32 --> Output Class Initialized
+INFO - 2025-11-27 17:55:32 --> Router Class Initialized
+INFO - 2025-11-27 17:55:32 --> Security Class Initialized
+INFO - 2025-11-27 17:55:32 --> Output Class Initialized
+INFO - 2025-11-27 17:55:32 --> Security Class Initialized
+DEBUG - 2025-11-27 17:55:32 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2025-11-27 17:55:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:55:32 --> Input Class Initialized
+INFO - 2025-11-27 17:55:32 --> Input Class Initialized
+INFO - 2025-11-27 17:55:32 --> Hooks Class Initialized
+INFO - 2025-11-27 17:55:32 --> Language Class Initialized
+INFO - 2025-11-27 17:55:32 --> Language Class Initialized
+ERROR - 2025-11-27 17:55:32 --> 404 Page Not Found: Assets/datatables
+ERROR - 2025-11-27 17:55:32 --> 404 Page Not Found: Assets/datatables
+DEBUG - 2025-11-27 17:55:32 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:55:32 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:55:32 --> URI Class Initialized
+INFO - 2025-11-27 17:55:32 --> Router Class Initialized
+INFO - 2025-11-27 17:55:32 --> Output Class Initialized
+INFO - 2025-11-27 17:55:32 --> Security Class Initialized
+DEBUG - 2025-11-27 17:55:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:55:32 --> Input Class Initialized
+INFO - 2025-11-27 17:55:32 --> Language Class Initialized
+ERROR - 2025-11-27 17:55:32 --> 404 Page Not Found: Assets/css
+INFO - 2025-11-27 17:55:45 --> Config Class Initialized
+INFO - 2025-11-27 17:55:45 --> Hooks Class Initialized
+DEBUG - 2025-11-27 17:55:45 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:55:45 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:55:45 --> URI Class Initialized
+INFO - 2025-11-27 17:55:45 --> Router Class Initialized
+INFO - 2025-11-27 17:55:45 --> Output Class Initialized
+INFO - 2025-11-27 17:55:45 --> Security Class Initialized
+DEBUG - 2025-11-27 17:55:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:55:45 --> Input Class Initialized
+INFO - 2025-11-27 17:55:45 --> Language Class Initialized
+INFO - 2025-11-27 17:55:45 --> Loader Class Initialized
+INFO - 2025-11-27 17:55:45 --> Helper loaded: url_helper
+INFO - 2025-11-27 17:55:45 --> Helper loaded: form_helper
+INFO - 2025-11-27 17:55:45 --> Helper loaded: date_helper
+INFO - 2025-11-27 17:55:45 --> Helper loaded: file_helper
+INFO - 2025-11-27 17:55:45 --> Helper loaded: security_helper
+INFO - 2025-11-27 17:55:45 --> Database Driver Class Initialized
+INFO - 2025-11-27 17:55:45 --> Session: Class initialized using 'files' driver.
+INFO - 2025-11-27 17:55:45 --> Form Validation Class Initialized
+INFO - 2025-11-27 17:55:45 --> MY_Model class loaded
+INFO - 2025-11-27 17:55:45 --> Model "Login_model" initialized
+DEBUG - 2025-11-27 17:55:45 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2025-11-27 17:55:45 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-11-27 17:55:45 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:55:45 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:55:45 --> Config Class Initialized
+INFO - 2025-11-27 17:55:45 --> Hooks Class Initialized
+DEBUG - 2025-11-27 17:55:45 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:55:45 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:55:45 --> URI Class Initialized
+INFO - 2025-11-27 17:55:45 --> Router Class Initialized
+INFO - 2025-11-27 17:55:45 --> Output Class Initialized
+INFO - 2025-11-27 17:55:45 --> Security Class Initialized
+DEBUG - 2025-11-27 17:55:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:55:45 --> Input Class Initialized
+INFO - 2025-11-27 17:55:45 --> Language Class Initialized
+INFO - 2025-11-27 17:55:45 --> Loader Class Initialized
+INFO - 2025-11-27 17:55:45 --> Helper loaded: url_helper
+INFO - 2025-11-27 17:55:45 --> Helper loaded: form_helper
+INFO - 2025-11-27 17:55:45 --> Helper loaded: date_helper
+INFO - 2025-11-27 17:55:45 --> Helper loaded: file_helper
+INFO - 2025-11-27 17:55:45 --> Helper loaded: security_helper
+INFO - 2025-11-27 17:55:45 --> Database Driver Class Initialized
+INFO - 2025-11-27 17:55:45 --> Session: Class initialized using 'files' driver.
+INFO - 2025-11-27 17:55:45 --> Form Validation Class Initialized
+INFO - 2025-11-27 17:55:45 --> MY_Model class loaded
+INFO - 2025-11-27 17:55:45 --> Model "Login_model" initialized
+DEBUG - 2025-11-27 17:55:45 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2025-11-27 17:55:45 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-11-27 17:55:45 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:55:45 --> Model "Usuario_model" initialized
+INFO - 2025-11-27 17:55:45 --> File loaded: C:\xampp\htdocs\proyecto_3\application\views\login.php
+INFO - 2025-11-27 17:55:45 --> Final output sent to browser
+DEBUG - 2025-11-27 17:55:45 --> Total execution time: 0.0914
+INFO - 2025-11-27 17:55:45 --> Config Class Initialized
+INFO - 2025-11-27 17:55:45 --> Hooks Class Initialized
+DEBUG - 2025-11-27 17:55:45 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:55:45 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:55:45 --> URI Class Initialized
+INFO - 2025-11-27 17:55:45 --> Router Class Initialized
+INFO - 2025-11-27 17:55:45 --> Output Class Initialized
+INFO - 2025-11-27 17:55:45 --> Config Class Initialized
+INFO - 2025-11-27 17:55:45 --> Config Class Initialized
+INFO - 2025-11-27 17:55:45 --> Hooks Class Initialized
+INFO - 2025-11-27 17:55:45 --> Hooks Class Initialized
+INFO - 2025-11-27 17:55:45 --> Security Class Initialized
+DEBUG - 2025-11-27 17:55:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:55:45 --> Input Class Initialized
+DEBUG - 2025-11-27 17:55:45 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:55:45 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:55:45 --> Language Class Initialized
+INFO - 2025-11-27 17:55:45 --> URI Class Initialized
+INFO - 2025-11-27 17:55:45 --> Router Class Initialized
+ERROR - 2025-11-27 17:55:45 --> 404 Page Not Found: Assets/css
+INFO - 2025-11-27 17:55:45 --> Output Class Initialized
+DEBUG - 2025-11-27 17:55:45 --> UTF-8 Support Enabled
+INFO - 2025-11-27 17:55:45 --> Security Class Initialized
+INFO - 2025-11-27 17:55:45 --> Utf8 Class Initialized
+INFO - 2025-11-27 17:55:45 --> URI Class Initialized
+DEBUG - 2025-11-27 17:55:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:55:45 --> Input Class Initialized
+INFO - 2025-11-27 17:55:45 --> Router Class Initialized
+INFO - 2025-11-27 17:55:45 --> Language Class Initialized
+INFO - 2025-11-27 17:55:45 --> Output Class Initialized
+ERROR - 2025-11-27 17:55:45 --> 404 Page Not Found: Assets/js
+INFO - 2025-11-27 17:55:45 --> Security Class Initialized
+DEBUG - 2025-11-27 17:55:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-11-27 17:55:45 --> Input Class Initialized
+INFO - 2025-11-27 17:55:45 --> Language Class Initialized
+ERROR - 2025-11-27 17:55:45 --> 404 Page Not Found: Assets/css

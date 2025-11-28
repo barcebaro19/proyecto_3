@@ -20,7 +20,14 @@
             <!-- Dropdown - User Information -->
             <div class="dropdown-menu dropdown-menu-end shadow animated--grow-in"
                 aria-labelledby="userDropdown">
-                <a class="dropdown-item" href="<?= site_url('admin/perfil') ?>">
+                <?php 
+                $rol = $this->session->userdata('rol');
+                $perfil_url = '#';
+                if ($rol == 'administrador') $perfil_url = site_url('admin/perfil');
+                elseif ($rol == 'jefe') $perfil_url = site_url('jefe/perfil');
+                elseif ($rol == 'operario') $perfil_url = site_url('operario/perfil'); // Si existe, sino ocultar o redirigir a dashboard
+                ?>
+                <a class="dropdown-item" href="<?= $perfil_url ?>">
                     <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
                     Perfil
                 </a>

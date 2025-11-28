@@ -55,6 +55,19 @@ $route['jefe/ver_producto/(:num)'] = 'jefe/ver_producto/$1';
 $route['jefe/reportes'] = 'jefe/reportes';
 $route['jefe/perfil'] = 'jefe/perfil';
 
+// Rutas de operario
+$route['operario'] = 'operario/dashboard';
+$route['operario/dashboard'] = 'operario/dashboard';
+$route['operario/tabla_principal'] = 'operario/tabla_principal';
+$route['operario/productos'] = 'operario/productos';
+$route['operario/ver_producto/(:num)'] = 'operario/ver_producto/$1';
+$route['operario/crear_producto'] = 'operario/crear_producto';
+$route['operario/editar_producto/(:num)'] = 'operario/editar_producto/$1';
+$route['operario/movimientos'] = 'operario/movimientos';
+$route['operario/registrar_movimiento'] = 'operario/registrar_movimiento';
+$route['operario/obtener_siguiente_codigo'] = 'operario/obtener_siguiente_codigo';
+$route['operario/perfil'] = 'operario/perfil';
+
 // Rutas de API
 $route['api/categorias/select2'] = 'categoria/get_categorias_select2';
 
